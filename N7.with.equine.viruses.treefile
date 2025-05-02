@@ -1,0 +1,467 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=365;
+	taxlabels
+	'Agustina|A|cinnamon_teal/Argentina/CIP112-3955/2019|H10N7|2019-07-25|S_America|Argentina'
+	'Agustina|A|silver_teal/Argentina/CIP112-4265/2019|H10N7|2019-07-30|S_America|Argentina'
+	'EPIISL1005678|A|common_teal/Chany_Lake/4/2020|H10N7|2020-08-29|Europe|Russia'
+	'EPIISL103698|A|turkey/Ireland/PV8/1995|H7N7|1995|Europe|Ireland'
+	'EPIISL10383|A|mallard/Bavaria/3/2006|H10N7|2006|Europe|Germany'
+	'EPIISL1081358|A|mallard/Yakutia/47/2020|H7N7|2020-08-13|Europe|Russia'
+	'EPIISL119136|A|sanderling/New_Jersey/756/1986|H2N7|1986-05-12|N_America|USA'
+	'EPIISL119137|A|sanderling/New_Jersey/766/1986|H2N7|1986-05-12|N_America|USA'
+	'EPIISL119138|A|shorebird/New_Jersey/845/1986|H2N7|1986-05-13|N_America|USA'
+	'EPIISL120186|A|shoveler/Egypt/00600-NAMRU3/2004|H10N7|2004-01-27|Africa|Egypt'
+	'EPIISL120188|A|teal/Egypt/00835-NAMRU3/2004|H7N7|2004-02-18|Africa|Egypt'
+	'EPIISL120189|A|shoveler/Egypt/09782-NAMRU3/2004|H10N7|2004-12-18|Africa|Egypt'
+	'EPIISL120190|A|shoveler/Egypt/09864-NAMRU3/2004|H7N7|2004-12-22|Africa|Egypt'
+	'EPIISL120192|A|shoveler/Egypt/09781-NAMRU3/2004|H10N7|2004-12-18|Africa|Egypt'
+	'EPIISL120199|A|Egyptian_goose/Egypt/05588-NAMRU3/2006|H7N7|2006-04-07|Africa|Egypt'
+	'EPIISL120200|A|shoveler/Egypt/01198-NAMRU3/2007|H10N7|2007-01-19|Africa|Egypt'
+	'EPIISL120203|A|teal/Egypt/01207-NAMRU3/2007|H10N7|2007-01-19|Africa|Egypt'
+	'EPIISL12627436|A|wild_bird/Shandong/3588/2018|H7N7|2018-11-28|Asia|China'
+	'EPIISL12627544|A|swan/Shandong/662/2019|H7N7|2019-01-13|Asia|China'
+	'EPIISL12627548|A|swan/Shandong/824/2019|H7N7|2019-01-13|Asia|China'
+	'EPIISL12627549|A|wild_bird/Shandong/W1549/2020|H7N7|2020-03-15|Asia|China'
+	'EPIISL12627552|A|wild_bird/Shandong/W1553/2020|H7N7|2020-03-15|Asia|China'
+	'EPIISL129739|A|Chicken/NSW-Sydney/D809/2010|H10N7|2010|Oceania|Australia'
+	'EPIISL129740|A|Chicken/Queensland/1/2012|H10N7|2012|Oceania|Australia'
+	'EPIISL129741|A|Chicken/Queensland/2/2012|H10N7|2012|Oceania|Australia'
+	'EPIISL129742|A|Chicken/Queensland/3/2012|H10N7|2012|Oceania|Australia'
+	'EPIISL129924|A|equine/Kirgiziya/26/1974|H7N7|1974|Asia|Kyrgyzstan'
+	'EPIISL131432|A|ruddy_turnstone/Delaware_Bay/149/1999|H11N7|1999-05-24|N_America|USA'
+	'EPIISL131868|A|American_black_duck/New_Brunswick/04395/2007|H10N7|2007-09-04|N_America|Canada'
+	'EPIISL133604|A|mallard/Ohio/11OS2044/2011|H10N7|2011-08-17|N_America|USA'
+	'EPIISL134894|A|mallard/Illinois/10OS3786/2010|H10N7|2010-11-27|N_America|USA'
+	'EPIISL135039|A|American_green-winged_teal/Mississippi/11OS255/2011|H7N7|2011-01-15|N_America|USA'
+	'EPIISL135044|A|northern_shoveler/Mississippi/11OS202/2011|H7N7|2011-01-14|N_America|USA'
+	'EPIISL135059|A|mallard/Missouri/10MO0391/2010|H10N7|2010-12-22|N_America|USA'
+	'EPIISL13573|A|duck/Jiangxi/1742/03|H7N7|2003|Asia|China'
+	'EPIISL137687|A|blue-winged_teal/New_Brunswick/00598/2010|H3N7|2010-08-15|N_America|Canada'
+	'EPIISL137689|A|blue-winged_teal/New_Brunswick/00600/2010|H3N7|2010-08-15|N_America|Canada'
+	'EPIISL137813|A|mallard/New_Brunswick/00593/2010|H3N7|2010-08-15|N_America|Canada'
+	'EPIISL137907|A|shorebird/Delaware_Bay/111/2009|H10N7|2009-05-20|N_America|USA'
+	'EPIISL137990|A|northern_pintail/Interior_Alaska/9BM11387R0/2009|H10N7|2009|N_America|USA'
+	'EPIISL138075|A|ruddy_turnstone/New_Jersey/146/1990|H10N7|1990-05-26|N_America|USA'
+	'EPIISL138090|A|mallard/Alberta/2/1995|H10N7|1995-08-03|N_America|Canada'
+	'EPIISL138100|A|mallard/Alberta/90/1997|H10N7|1997-07-31|N_America|Canada'
+	'EPIISL138101|A|mallard/Alberta/71/1998|H10N7|1998-08-05|N_America|Canada'
+	'EPIISL138106|A|shorebird/Delaware_Bay/180/1999|H10N7|1999-05-24|N_America|USA'
+	'EPIISL138111|A|shorebird/Delaware_Bay/37/2001|H10N7|2001-05-17|N_America|USA'
+	'EPIISL138120|A|shorebird/Delaware_Bay/142/2001|H10N7|2001-05-18|N_America|USA'
+	'EPIISL138133|A|shorebird/Delaware_Bay/212/2000|H10N7|2000-05-15|N_America|USA'
+	'EPIISL138162|A|mallard/Alberta/150/2002|H10N7|2002-07-02|N_America|Canada'
+	'EPIISL138171|A|shorebird/Delaware_Bay/10/2004|H10N7|2004-05-15|N_America|USA'
+	'EPIISL138174|A|ruddy_turnstone/Delaware_Bay/2763/1987|H10N7|1987-05-20|N_America|USA'
+	'EPIISL138175|A|mallard/Alberta/553/1986|H10N7|1986-08-19|N_America|Canada'
+	'EPIISL138751|A|avian/Israel/201/2001|H10N7|2001-02|Asia|Israel'
+	'EPIISL138752|A|avian/Israel/232/2001|H10N7|2001-02|Asia|Israel'
+	'EPIISL138754|A|avian/Israel/297/2001|H10N7|2001-04|Asia|Israel'
+	'EPIISL138756|A|avian/Israel/445/2001|H10N7|2001-09|Asia|Israel'
+	'EPIISL138757|A|avian/Israel/457/2001|H10N7|2001-09|Asia|Israel'
+	'EPIISL138760|A|avian/Israel/218/2000|H10N7|2000-12|Asia|Israel'
+	'EPIISL13984058|A|mallard/Jilin/XH35/2013|H10N7|2013-04-16|Asia|China'
+	'EPIISL13984063|A|wood_sandpiper/Hebei/QHD660/2013|H10N7|2013-05-07|Asia|China'
+	'EPIISL141040|A|duck/Fukui/1/2004|H7N7|2004-12-01|Asia|Japan'
+	'EPIISL141313|A|mallard/Minnesota/346268/2000|H6N7|2000|N_America|USA'
+	'EPIISL141809|A|northern_pintail/Interior_Alaska/9BM8084R0/2009|H10N7|2009|N_America|USA'
+	'EPIISL142113|A|ruddy_turnstone/New_Jersey/AI03-128/2003|H9N7|2003-05-21|N_America|USA'
+	'EPIISL142334|A|ruddy_turnstone/New_Jersey/AI06-582/2006|H6N7|2006-05-24|N_America|USA'
+	'EPIISL142369|A|green-winged_teal/Louisiana/169GW/1988|H10N7|1988|N_America|USA'
+	'EPIISL142378|A|ruddy_turnstone/New_Jersey/Sg-00490/2008|H10N7|2008-05-16|N_America|USA'
+	'EPIISL142419|A|ruddy_turnstone/New_Jersey/Sg-00543/2008|H3N7|2008-06-01|N_America|USA'
+	'EPIISL142434|A|northern_shoveler/Minnesota/Sg-00612/2008|H10N7|2008-07-29|N_America|USA'
+	'EPIISL142480|A|mallard/Minnesota/Sg-01030/2008|H10N7|2008-09-12|N_America|USA'
+	'EPIISL14392497|A|Anas_platyrhynchos/Belgium/2988_0002/2021|H7N7|2021-12-08|Europe|Belgium'
+	'EPIISL144756|A|Wild_Bird/NSW/6526/2011|H10N7|2011|Oceania|Australia'
+	'EPIISL146012|A|equine/Detroit/3/1964|H7N7|1964|N_America|USA'
+	'EPIISL146306|A|wild_waterfowl/Hong_Kong/MPM2121/2011|H7N7|2011|Asia|China'
+	'EPIISL146307|A|wild_waterfowl/Hong_Kong/MPL1006/2011|H7N7|2011|Asia|China'
+	'EPIISL146339|A|duck/Jiangxi/1748/2003|H7N7|2003|Asia|China'
+	'EPIISL146340|A|duck/Jiangxi/1775/2003|H7N7|2003|Asia|China'
+	'EPIISL146366|A|common_teal/Hong_Kong/MPM1740/2011|H7N7|2011|Asia|China'
+	'EPIISL146367|A|wild_waterfowl/Hong_Kong/MPL705/2011|H7N7|2011|Asia|China'
+	'EPIISL146376|A|goose/Guizhou/829/2012|H10N7|2012|Asia|China'
+	'EPIISL146377|A|goose/Guangdong/7472/2012|H7N7|2012|Asia|China'
+	'EPIISL146380|A|duck/Fujian/5728/2008|H7N7|2008|Asia|China'
+	'EPIISL146391|A|duck/Jiangxi/21669/2009|H7N7|2009|Asia|China'
+	'EPIISL146396|A|chicken/Jiangxi/2369/2010|H7N7|2010|Asia|China'
+	'EPIISL146400|A|duck/Jiangxi/16769/2010|H7N7|2010|Asia|China'
+	'EPIISL146401|A|duck/Jiangxi/21980/2010|H7N7|2010|Asia|China'
+	'EPIISL14767404|A|green-winged_teal/Alaska/AK20-416/2020|H10N7|2020-10-09|N_America|USA'
+	'EPIISL14767412|A|mallard/Alaska/AK20-256/2020|H10N7|2020-09-20|N_America|USA'
+	'EPIISL14767415|A|mallard/Alaska/UGAI17-5295/2017|H10N7|2017-09-25|N_America|USA'
+	'EPIISL14767422|A|northern_pintail/Alaska/AK20-341/2020|H10N7|2020-09-24|N_America|USA'
+	'EPIISL14768238|A|grey_teal/Victoria/11386/2018|H1N7|2018-03-17|Oceania|Australia'
+	'EPIISL14769880|A|wild_waterfowl/Queensland/P14-14395-34/2014|H2N7|2014-12-01|Oceania|Australia'
+	'EPIISL14777732|A|Ruddy_Turnstone/Delaware/414/2021|H10N7|2021-06-01|N_America|USA'
+	'EPIISL148234|A|black_scoter/Maine/276/2011|H10N7|2011-12-03|N_America|USA'
+	'EPIISL14835572|A|Mallard/South_Korea/KNU2021-49/2021|H7N7|2021-04-06|Asia|Korea'
+	'EPIISL14835573|A|Mallard/South_Korea/KNU2021-48/2021|H7N7|2021-03-15|Asia|Korea'
+	'EPIISL14867048|A|duck/Tochigi/NIES1408/2021|H10N7|2021|Asia|Japan'
+	'EPIISL14886524|A|duck/Bangladesh/51658/2021|H7N7|2021-12-18|Asia|Bangladesh'
+	'EPIISL150026|A|mallard/Sweden/102/2002|H7N7|2002-12-15|Europe|Sweden'
+	'EPIISL150332|A|mallard/California/3200/2012|H2N7|2012-08-08|N_America|USA'
+	'EPIISL158434|A|mallard/Wisconsin/11OS3578/2011|H10N7|2011-10-30|N_America|USA'
+	'EPIISL158593|A|northern_shoveler/Mississippi/12OS362/2012|H7N7|2012-01-17|N_America|USA'
+	'EPIISL158595|A|American_green-winged_teal/Mississippi/12OS405/2012|H10N7|2012-01-18|N_America|USA'
+	'EPIISL16215565|A|Mallard/Alberta/610/2021|H10N7|2021-08-26|N_America|Canada'
+	'EPIISL162290|A|American_green-winged_teal/Ohio/13OS2070/2013|H6N7|2013-09-21|N_America|USA'
+	'EPIISL16391|A|Anser_anser/Germany/R752/06|H7N7|2006|Europe|Germany'
+	'EPIISL16392|A|Anas_crecca/Germany/Wv177/05|H7N7|2005|Europe|Germany'
+	'EPIISL16393|A|Mallard/Alberta/8734/07|H7N7|2007|N_America|Canada'
+	'EPIISL165810|A|waterfowl/Bangladesh/12301/2013|H6N7|2013-01-23|Asia|Bangladesh'
+	'EPIISL16886894|A|Anser_albifrons/South_Korea/163-1/2022|H10N7|2022-01-11|Asia|Korea'
+	'EPIISL170786|A|turkey/England/647/1977|H7N7|1977|Europe|UK'
+	'EPIISL17485948|A|bird/Japan/NIES-0000008/2022|H2N7|2022|Asia|Japan'
+	'EPIISL175785|A|duck/Huzhou/4268/2013|H7N7|2013-10-24|Asia|China'
+	'EPIISL180943|A|mallard/Maryland/07OS73/2007|H10N7|2007-01-20|N_America|USA'
+	'EPIISL181612|A|migratory_duck/Jiangxi/33038/2013|H10N7|2013-12-15|Asia|China'
+	'EPIISL181994|A|duck/Jiangxi/1410/2008|H10N7|2008-01-28|Asia|China'
+	'EPIISL182004|A|duck/Jiangxi/26182/2009|H10N7|2009-12-27|Asia|China'
+	'EPIISL189319|A|mallard/Sweden/5932/2005|H10N7|2005-11-23|Europe|Sweden'
+	'EPIISL189320|A|mallard/Sweden/5994/2005|H7N7|2005-12-06|Europe|Sweden'
+	'EPIISL189325|A|mallard/Sweden/124987/2010|H7N7|2010-11-10|Europe|Sweden'
+	'EPIISL189367|A|mallard/Sweden/59463/2007|H10N7|2007-08-27|Europe|Sweden'
+	'EPIISL189457|A|mallard/Sweden/1689/2002|H7N7|2002-12-15|Europe|Sweden'
+	'EPIISL189540|A|mallard/Missouri/12OS5756/2012|H10N7|2012-12-10|N_America|USA'
+	'EPIISL189551|A|mallard/Sweden/1682/2002|H7N7|2002-12-15|Europe|Sweden'
+	'EPIISL189660|A|shorebird/Delaware_Bay/285/1994|H7N7|1994-05-23|N_America|USA'
+	'EPIISL189665|A|red_knot/Delaware_Bay/242/1994|H7N7|1994-05-23|N_America|USA'
+	'EPIISL189714|A|mallard/Republic_of_Georgia/14/2011|H10N7|2011-12-13|Asia|Georgia'
+	'EPIISL189715|A|black-headed_gull/Republic_of_Georgia/8/2012|H2N7|2012-01-02|Asia|Georgia'
+	'EPIISL189718|A|mallard/Republic_of_Georgia/2/2010|H7N7|2010-02-03|Asia|Georgia'
+	'EPIISL189719|A|mallard/Republic_of_Georgia/1/2010|H10N7|2010-01-29|Asia|Georgia'
+	'EPIISL190237|A|oystercatcher/Peru/MM152/2008|H10N7|2008-11-05|S_America|Peru'
+	'EPIISL195974|A|chicken/Zhejiang/2CP8/2014|H10N7|2014-03|Asia|China'
+	'EPIISL195975|A|chicken/Zhejiang/2C66/2014|H10N7|2014-03|Asia|China'
+	'EPIISL200924|A|ostrich/South_Africa/KRB/2013|H7N7|2013-04-01|Africa|S_Africa'
+	'EPIISL200933|A|ostrich/South_Africa/STV/2013|H7N7|2013-04-01|Africa|S_Africa'
+	'EPIISL201385|A|lesser_white-fronted_goose/HuNan/412-3Y/2010|H7N7|2010-10|Asia|China'
+	'EPIISL202998|A|chicken/Italy/13VIR4541-8/2013|H7N7|2013-08-13|Europe|Italy'
+	'EPIISL203004|A|chicken/Italy/13VIR5091/2013|H7N7|2013-09-02|Europe|Italy'
+	'EPIISL206695|A|duck/Mongolia/626/2015|H10N7|2015-08-31|Asia|Mongolia'
+	'EPIISL206697|A|duck/Mongolia/742/2015|H10N7|2015-08-31|Asia|Mongolia'
+	'EPIISL20857|A|chicken/California/755/1999|H10N7|1999|N_America|USA'
+	'EPIISL20858|A|emu/California/2092/1996|H10N7|1996|N_America|USA'
+	'EPIISL20859|A|quail/California/1022/1999|H10N7|1999|N_America|USA'
+	'EPIISL212461|A|chicken/England/11416/2008|H7N7|2008-06-02|Europe|UK'
+	'EPIISL215597|A|mallard/Ohio/14OS3237/2014|H10N7|2014-11-24|N_America|USA'
+	'EPIISL216660|A|mallard/Maryland/09OS1125/2009|H10N7|2009-07-31|N_America|USA'
+	'EPIISL216764|A|mallard/Maryland/13OS3316/2014|H10N7|2014-06-24|N_America|USA'
+	'EPIISL216765|A|mallard/Maryland/13OS3318/2014|H10N7|2014-06-24|N_America|USA'
+	'EPIISL216877|A|mallard/Novomyhalivka/10-23-12/2010|H7N7|2010-12-23|Europe|Ukraine'
+	'EPIISL216878|A|mallard/Nizhnegorsk/3-06-10/2010|H7N7|2010-10-06|Europe|Ukraine'
+	'EPIISL216879|A|mallard/Askania-Nova/39-15-02/2011|H7N7|2011-02-15|Europe|Ukraine'
+	'EPIISL218645|A|duck/Vietnam/NCVD-0035/2012|H10N7|2012-12-04|Asia|Vietnam'
+	'EPIISL219869|A|blue-winged_teal/Texas/UGAI15-6890/2015|H14N7|2015-09-20|N_America|USA'
+	'EPIISL222694|A|gray_plover/Chile/C1313/2015|H9N7|2015-09-25|S_America|Chile'
+	'EPIISL224260|A|turkey/Germany/R534/2013|H7N7|2013|Europe|Germany'
+	'EPIISL224261|A|turkey/Germany/R11/2001|H7N7|2001|Europe|Germany'
+	'EPIISL224753|A|chicken/Netherlands/15007212/15|H10N7|2015-04-29|Europe|Netherlands'
+	'EPIISL22535|A|ruddy_turnstone/DE/167/2004|H10N7|2004|N_America|USA'
+	'EPIISL22542|A|northern_shoveler/TX/56/2000|H10N7|2000|N_America|USA'
+	'EPIISL22604|A|whooper_swan/Norway/10_438/2006|H7N7|2006|Europe|Norway'
+	'EPIISL230161|A|blue-winged_teal/Texas/UGAI14-1210TX/2014|H7N7|2014-03-09|N_America|USA'
+	'EPIISL235196|A|chicken/Jiangxi/C25/2014|H7N7|2014-02|Asia|China'
+	'EPIISL235200|A|duck/Jiangxi/S4770/2013|H7N7|2013-11-19|Asia|China'
+	'EPIISL235201|A|duck/Zhejiang/S3158/2012|H7N7|2012-10-19|Asia|China'
+	'EPIISL237175|A|duck/Shimane/32-20/2014|H7N7|2014-11|Asia|Japan'
+	'EPIISL237178|A|duck/Gunma/100213/2015|H7N7|2015-02|Asia|Japan'
+	'EPIISL238016|A|whistling_swan/Shimane/42/80|H7N7|1980|Asia|Japan'
+	'EPIISL238023|A|duck/Tsukuba/30/07|H7N7|2007|Asia|Japan'
+	'EPIISL240614|A|duck/Ibaraki/107/2016|H7N7|2016-12-14|Asia|Japan'
+	'EPIISL243381|A|mallard_duck/Netherlands/2/2007|H10N7|2007-03-23|Europe|Netherlands'
+	'EPIISL243382|A|mallard_duck/Netherlands/67/2008|H10N7|2008-12-13|Europe|Netherlands'
+	'EPIISL243388|A|mallard_duck/Netherlands/1/2007|H10N7|2007-03-26|Europe|Netherlands'
+	'EPIISL243434|A|mallard_duck/Netherlands/33/2014|H10N7|2014-12-16|Europe|Netherlands'
+	'EPIISL243439|A|mallard_duck/Netherlands/13/2013|H7N7|2013-12-10|Europe|Netherlands'
+	'EPIISL243453|A|mallard_duck/Netherlands/31/2013|H10N7|2013-05-20|Europe|Netherlands'
+	'EPIISL243456|A|mallard_duck/Netherlands/5/2012|H10N7|2012-05-12|Europe|Netherlands'
+	'EPIISL243491|A|mallard_duck/Netherlands/32/2013|H10N7|2013-08-05|Europe|Netherlands'
+	'EPIISL243500|A|mallard_duck/Netherlands/47/2010|H10N7|2010-11-26|Europe|Netherlands'
+	'EPIISL243520|A|mallard_duck/Netherlands/16/2006|H10N7|2006-01-14|Europe|Netherlands'
+	'EPIISL243534|A|mallard_duck/Netherlands/1/2012|H10N7|2012-01-14|Europe|Netherlands'
+	'EPIISL243574|A|mallard_duck/Netherlands/2/2011|H10N7|2011-03-08|Europe|Netherlands'
+	'EPIISL243586|A|mallard_duck/Netherlands/1/2011|H7N7|2011-02-23|Europe|Netherlands'
+	'EPIISL243612|A|mallard_duck/Netherlands/2/2015|H7N7|2015-01-16|Europe|Netherlands'
+	'EPIISL243649|A|mallard_duck/Netherlands/2/2008|H10N7|2008-01-07|Europe|Netherlands'
+	'EPIISL254728|A|mallard/New_York/AH0081558/2016|H7N7|2016-01-29|N_America|USA'
+	'EPIISL254743|A|mallard/Kentucky/AH0069753/2016|H7N7|2016-02-02|N_America|USA'
+	'EPIISL254768|A|duck/Pennsylvania/15-030188-1/2015|H7N7|2015-09-15|N_America|USA'
+	'EPIISL254792|A|American_wigeon/Utah/AH0067123/2015|H7N7|2015-12-02|N_America|USA'
+	'EPIISL25481|A|northern_pintail/Alaska/44161-018/2006|H10N7|2006-08-12|N_America|USA'
+	'EPIISL25482|A|northern_pintail/Alaska/44184-116/2006|H10N7|2006-08-25|N_America|USA'
+	'EPIISL254845|A|mallard_duck/Ohio/15OS7675/2015|H7N7|2015-11-25|N_America|USA'
+	'EPIISL256345|A|northern_pintail/California/AH0011948/2015|H7N7|2015-01-18|N_America|USA'
+	'EPIISL257185|A|chicken/Netherlands/06022003/2006|H7N7|2006-08-01|Europe|Netherlands'
+	'EPIISL257279|A|northern_shoveler/Alaska/UGAI15-7315/2015|H10N7|2015-09-29|N_America|USA'
+	'EPIISL257414|A|duck/Ibaraki/F10-2-5/2017|H7N7|2016-02-21|Asia|Japan'
+	'EPIISL257415|A|duck/Ibaraki/F4-2-1/2017|H7N7|2016-02-20|Asia|Japan'
+	'EPIISL26339|A|mallard/Poland/01/08|H7N7|2007-12-28|Europe|Poland'
+	'EPIISL26367|A|Mallard/Sweden/100993/2008|H7N7|2008|Europe|Sweden'
+	'EPIISL26368|A|Mallard/Sweden/S90597/2005|H7N7|2005|Europe|Sweden'
+	'EPIISL267180|A|mallard_duck/Netherlands/21/2010|H10N7|2010-09-07|Europe|Netherlands'
+	'EPIISL267318|A|mallard_duck/Netherlands/2/2014|H10N7|2014-02-17|Europe|Netherlands'
+	'EPIISL273358|A|mallard/Minnesota/AI11-4412/2011|H10N7|2011-09-07|N_America|USA'
+	'EPIISL27618|A|equine/Kentucky/1a/1975|H7N7|1975|N_America|USA'
+	'EPIISL27619|A|equine/Sao_Paulo/4/1976|H7N7|1976|S_America|Brazil'
+	'EPIISL27620|A|equine/Uruguay/1063/1976|H7N7|1976|S_America|Uruguay'
+	'EPIISL27621|A|equine/Argentina/1/1977|H7N7|1977|S_America|Argentina'
+	'EPIISL278519|A|Bean_goose/Hubei/CH-I299/2017_H7N7|H7N7|2017-02-24|Asia|China'
+	'EPIISL290314|A|giant_petrel/Antarctica/E96/2011|H4N7|2011-01-09|Antarctica|Antarctica'
+	'EPIISL294009|A|mallard_duck/Illinois/16OS4899/2016|H10N7|2016-12-20|N_America|USA'
+	'EPIISL294154|A|Northern_shoveler/Ohio/16OS5078/2016|H10N7|2016-11-17|N_America|USA'
+	'EPIISL294157|A|mallard_duck/Wisconsin/16OS4004/2016|H1N7|2016-12-02|N_America|USA'
+	'EPIISL29437|A|goose/Egypt/905588/2006|H7N7|2006|Africa|Egypt'
+	'EPIISL29443|A|teal/Egypt/912908/2005|H10N7|2005|Africa|Egypt'
+	'EPIISL295495|A|Duck/Dongting/D76-1/2016|H5N7|2016-12-28|Asia|China'
+	'EPIISL29945|A|equine/Lexington/1/1966|H7N7|1966|N_America|USA'
+	'EPIISL30674|A|duck/Shimane/18/2006|H7N7|2006|Asia|Japan'
+	'EPIISL30784|A|duck/Tsukuba/664/2007|H7N7|2007|Asia|Japan'
+	'EPIISL30785|A|duck/Tsukuba/922/2008|H7N7|2008|Asia|Japan'
+	'EPIISL309175|A|duck/Bangladesh/824/2009|H10N7|2009-01-11|Asia|Bangladesh'
+	'EPIISL309178|A|chicken/Bangladesh/842/2009|H10N7|2009-01-11|Asia|Bangladesh'
+	'EPIISL309179|A|duck/Bangladesh/821/2009|H10N7|2009-01-11|Asia|Bangladesh'
+	'EPIISL309213|A|green-winged_teal/Korea/H873-5/2017|H7N7|2017-01-17|Asia|Korea'
+	'EPIISL309219|A|common_teal/Korea/H937-5/2017|H7N7|2017-02-23|Asia|Korea'
+	'EPIISL309611|A|ruddy_turnstone/New_Jersey/UGAI17-2770/2017|H5N7|2017-05-22|N_America|USA'
+	'EPIISL309617|A|ruddy_turnstone/New_Jersey/UGAI17-2783/2017|H5N7|2017-05-22|N_America|USA'
+	'EPIISL309632|A|ruddy_turnstone/New_Jersey/UGAI17-2975/2017|H5N7|2017-05-27|N_America|USA'
+	'EPIISL309633|A|ruddy_turnstone/New_Jersey/UGAI17-2983/2017|H3N7|2017-05-27|N_America|USA'
+	'EPIISL309808|A|Chicken/Netherlands/11011392/2011|H7N7|2011-06-23|Europe|Netherlands'
+	'EPIISL309810|A|Chicken/Netherlands/12014794/2012|H7N7|2012-08-09|Europe|Netherlands'
+	'EPIISL309816|A|Chicken/Netherlands/14003005/2014|H2N7|2014-03-05|Europe|Netherlands'
+	'EPIISL309822|A|Turkey/Netherlands/09006938/2009|H10N7|2009-04-14|Europe|Netherlands'
+	'EPIISL309823|A|Turkey/Netherlands/11011530/2011|H7N7|2011-06-25|Europe|Netherlands'
+	'EPIISL309838|A|Chicken/Netherlands/09006943/2009|H10N7|2009-04-15|Europe|Netherlands'
+	'EPIISL309839|A|Chicken/Netherlands/09007064/2009|H10N7|2009-04-17|Europe|Netherlands'
+	'EPIISL309929|A|Chicken/Netherlands/11008327/2011|H7N7|2011-05-12|Europe|Netherlands'
+	'EPIISL310191|A|mallard/Sweden/100993/2008|H7N7|2008-05-01|Europe|Sweden'
+	'EPIISL310|A|duck/Hokkaido/Vac-2/04|H7N7|2004|Asia|Japan'
+	'EPIISL31483|A|mute_swan/Hungary/5973/2007|H7N7|2007|Europe|Hungary'
+	'EPIISL31665|A|macaw/Italy/626/1980|H7N7|1980|Europe|Italy'
+	'EPIISL327586|A|yellow-billed_teal/Chile/C20255/2016|H10N7|2016-12-14|S_America|Chile'
+	'EPIISL327593|A|yellow-billed_pintail/Chile/C19357/2016|H10N7|2016-11-22|S_America|Chile'
+	'EPIISL327594|A|yellow-billed_pintail/Chile/C19338/2016|H10N7|2016-11-22|S_America|Chile'
+	'EPIISL328976|A|mallard_duck/Georgia/10/2016|H7N7|2016-09-30|Asia|Georgia'
+	'EPIISL328996|A|mallard_duck/Netherlands/50/2010|H10N7|2010-12-03|Europe|Netherlands'
+	'EPIISL329027|A|mallard_duck/Netherlands/6/2009|H7N7|2009-02-02|Europe|Netherlands'
+	'EPIISL333138|A|duck/Bangladesh/18D769/2017|H6N7|2017-01-23|Asia|Bangladesh'
+	'EPIISL362149|A|Chicken/Netherlands/15004745-001-005/2015|H7N7|2019-03-12|Europe|Netherlands'
+	'EPIISL363820|A|wild_bird/Hunan/0224_YYDTHF2-106-2/2016|H10N7|2017-02-24|Asia|China'
+	'EPIISL364028|A|wild_bird/Hunan/0114_DTHF3-18-1/2016|H10N7|2016-01-14|Asia|China'
+	'EPIISL368627|A|duck/Hokkaido/W34/2004|H7N7|2004-10-07|Asia|Japan'
+	'EPIISL370381|A|Calidris_ruficollis/Hokkaido/12EY0172/2012|H4N7|2012-09-13|Asia|Japan'
+	'EPIISL370664|A|duck/Hokkaido/59/2007|H7N7|2007-08-26|Asia|Japan'
+	'EPIISL3707554|A|duck/Fukui/2/2004|H7N7|2004-12-01|Asia|Japan'
+	'EPIISL371832|A|ruddy_turnstone/Delaware_Bay/538/2013|H10N7|2013-05-23|N_America|USA'
+	'EPIISL371834|A|ruddy_turnstone/Delaware_Bay/479/2013|H10N7|2013-05-23|N_America|USA'
+	'EPIISL371848|A|duck/Viet_Nam/HU10-48/2018|H7N7|2018-08-23|Asia|Vietnam'
+	'EPIISL371849|A|duck/Viet_Nam/HU10-64/2018|H7N7|2018-08-23|Asia|Vietnam'
+	'EPIISL376261|A|mallard/Wisconsin/17OS4049/2017|H10N7|2017-11-11|N_America|USA'
+	'EPIISL378296|A|Green-Winged_Teal/Utah/D1615513/2016|H10N7|2016-12-07|N_America|USA'
+	'EPIISL378307|A|mallard/Beijing/27/2011|H10N7|2011-10-06|Asia|China'
+	'EPIISL378366|A|Eurasian_Wigeon/Netherlands/5/2007|H7N7|2007-10-22|Europe|Netherlands'
+	'EPIISL379990|A|Iceland_gull/Iceland/4402/2015|H10N7|2015-11|Europe|Iceland'
+	'EPIISL380994|A|silver_teal/Argentina/CIP051-171/2011|H10N7|2011-06|S_America|Argentina'
+	'EPIISL380996|A|silver_teal/Argentina/CIP051-175/2011|H10N7|2011-06|S_America|Argentina'
+	'EPIISL380997|A|silver_teal/Argentina/CIP051-188/2011|H7N7|2011-06|S_America|Argentina'
+	'EPIISL381|A|duck/Taiwan/4201/99|H7N7|1999|Asia|Taiwan'
+	'EPIISL387963|A|teal/Egypt/MB-D-148OP/2015|H10N7|2015-01-27|Africa|Egypt'
+	'EPIISL390458|A|sandpiper/Tomsk/112/2019|H14N7|2019-04-30|Europe|Russia'
+	'EPIISL393447|A|Common_Goldeneye/Wisconsin/18OS2943/2018|H10N7|2018-11-28|N_America|USA'
+	'EPIISL393482|A|Mallard/Ohio/18OS1035/2018|H10N7|2018-03-20|N_America|USA'
+	'EPIISL393520|A|White-fronted_Goose/South_Korea/KNU18-119/2018|H7N7|2018-12-31|Asia|Korea'
+	'EPIISL394155|A|chicken/Netherlands/17013178-006010/2017|H10N7|2017-09-27|Europe|Netherlands'
+	'EPIISL397533|A|ruddy_turnstone/Delaware/AI09-743/2009|H10N7|2009-05-28|N_America|USA'
+	'EPIISL397603|A|ruddy_turnstone/New_Jersey/AI12-2344/2012|H7N7|2012-05-20|N_America|USA'
+	'EPIISL397651|A|ruddy_turnstone/New_Jersey/AI13-2299/2013|H10N7|2013-05-21|N_America|USA'
+	'EPIISL397690|A|ruddy_turnstone/New_Jersey/AI13-2830/2013|H10N7|2013-05-29|N_America|USA'
+	'EPIISL397904|A|ruddy_turnstone/Delaware/1148666/2004|H10N7|2004-05-21|N_America|USA'
+	'EPIISL397909|A|ruddy_turnstone/Delaware/1523544/2006|H7N7|2006-05-24|N_America|USA'
+	'EPIISL397911|A|ruddy_turnstone/Delaware/421732/2001|H12N7|2001-05-20|N_America|USA'
+	'EPIISL397957|A|ruddy_turnstone/New_Jersey/1148670/2004|H10N7|2004-05-17|N_America|USA'
+	'EPIISL397959|A|ruddy_turnstone/New_Jersey/1148672/2004|H10N7|2004-05-17|N_America|USA'
+	'EPIISL397991|A|ruddy_turnstone/New_Jersey/471613/2001|H10N7|2001-05-23|N_America|USA'
+	'EPIISL398009|A|ruddy_turnstone/New_Jersey/828223/2001|H10N7|2001-05-23|N_America|USA'
+	'EPIISL399589|A|Anas_platyrhynchos/Belgium/23852/2012|H7N7|2012-11-16|Europe|Belgium'
+	'EPIISL399590|A|Anas_platyrhynchos/Belgium/25576/2012|H7N7|2012-12-17|Europe|Belgium'
+	'EPIISL399746|A|duck/Cambodia/C8W6M1/2018|H10N7|2018-02-06|Asia|Cambodia'
+	'EPIISL4071017|A|Duck/Germany/62-4/1981|H7N7|1981-01-01|Europe|Germany'
+	'EPIISL4071213|A|Mallard_/South_Korea/KNU2019-33/2019|H7N7|2019-03-18|Asia|Korea'
+	'EPIISL4071629|A|duck/Bangladesh/43273/2020|H10N7|2020-01-28|Asia|Bangladesh'
+	'EPIISL4072373|A|aquatic_bird/South_Korea/346/2009|H5N7|2009-02-13|Asia|Korea'
+	'EPIISL4073180|A|duck/Bangladesh/44480/2020|H10N7|2020-02-22|Asia|Bangladesh'
+	'EPIISL4073193|A|duck/Bangladesh/44494/2020|H10N7|2020-02-22|Asia|Bangladesh'
+	'EPIISL483045|A|mallard/Korea/WA593/2014|H10N7|2014-11-20|Asia|Korea'
+	'EPIISL483047|A|wild_bird/Korea/H2542/2015|H10N7|2015-04-06|Asia|Korea'
+	'EPIISL483050|A|mallard/Korea/WB596/2015|H10N7|2015-12-15|Asia|Korea'
+	'EPIISL483051|A|mallard/Korea/H884-2/2017|H10N7|2017-02-08|Asia|Korea'
+	'EPIISL502602|A|Anas_platyrhynchos/Belgium/11242/2016|H7N7|2016-11-30|Europe|Belgium'
+	'EPIISL503047|A|mallard_duck/California/UCD402/2018|H2N7|2018-06-27|N_America|USA'
+	'EPIISL503349|A|duck/Mongolia/6/2019|H7N7|2019-09-12|Asia|Mongolia'
+	'EPIISL503782|A|Mallard/Ohio/19OS0095/2019|H10N7|2019-03-26|N_America|USA'
+	'EPIISL504326|A|duck/Okayama/331111/2014|H10N7|2014-11-11|Asia|Japan'
+	'EPIISL505570|A|Red_Knot/Delaware/125/2019|H10N7|2019-05-20|N_America|USA'
+	'EPIISL506007|A|ruddy_turnstone/South_Carolina/UGAI18-892/2018|H10N7|2018-05-23|N_America|USA'
+	'EPIISL5798|A|pintail/Alberta/129/1993|H10N7|1993-12-01|N_America|Canada'
+	'EPIISL5835|A|mallard_duck/Minnesota/19/1979|H10N7|1979-08-01|N_America|USA'
+	'EPIISL5877|A|goose/Leipzig/187-7/1979|H7N7|1979|Europe|Germany'
+	'EPIISL591|A|duck/Mongolia/583/02|H4N7|2002|Asia|Mongolia'
+	'EPIISL63106|A|northern_pintail/Akita/1367/2008|H7N7|2008|Asia|Japan'
+	'EPIISL63114|A|northern_pintail/Miyagi/674/2008|H7N7|2008|Asia|Japan'
+	'EPIISL631|A|duck/Shimane/45/1997|H10N7|1997|Asia|Japan'
+	'EPIISL6505|A|mallard/Ohio/99/1989|H10N7|1989-10-19|N_America|USA'
+	'EPIISL67410|A|mallard/Maryland/210/2003|H10N7|2003|N_America|USA'
+	'EPIISL67411|A|mallard/Maryland/220/2003|H10N7|2003|N_America|USA'
+	'EPIISL6781398|A|mallard/South_Korea/34X-2/2021|H7N7|2021-01-27|Asia|Korea'
+	'EPIISL6795225|A|Duck/Sangiin_Dalai_lake/_241/2019|H7N7|2019-05-08|Asia|Mongolia'
+	'EPIISL6795363|A|mallard/Alaska/AH0177454/2021|H10N7|2021-08-02|N_America|USA'
+	'EPIISL68526|A|mallard/Minnesota/17/1999|H7N7|1999|N_America|USA'
+	'EPIISL68714|A|quail/NJ/25254-22/1995|H10N7|1995|N_America|USA'
+	'EPIISL68844|A|duck/Alaska/712/1991|H10N7|1991|N_America|USA'
+	'EPIISL68853|A|turkey/VA/31409/1991|H10N7|1991|N_America|USA'
+	'EPIISL68979|A|starling/Victoria/1985|H7N7|1985|Oceania|Australia'
+	'EPIISL69253|A|Cor/16/1974|H7N7|1974|N_America|USA'
+	'EPIISL6959|A|mallard/Ohio/122/1989|H10N7|1989-10-19|N_America|USA'
+	'EPIISL69866|A|chicken/Victoria/1976|H7N7|1976-01|Oceania|Australia'
+	'EPIISL69905|A|Santiago/77|H7N7|1977|S_America|Chile'
+	'EPIISL69993|A|turkey/MN/3/1979|H10N7|1979|N_America|USA'
+	'EPIISL70101|A|duck/Alaska/658/1991|H10N7|1991|N_America|USA'
+	'EPIISL70102|A|duck/Alaska/702/1991|H8N7|1991|N_America|USA'
+	'EPIISL70550|A|mallard/Korea/GH171/2007|H7N7|2007-12|Asia|Korea'
+	'EPIISL70554|A|magpie/Korea/YJD174/2007|H7N7|2007-12|Asia|Korea'
+	'EPIISL73978|A|duck/Victoria/1976|H7N7|1976|Oceania|Australia'
+	'EPIISL74023|A|Pekin_duck/South_Africa/AI1642/2009|H10N7|2009-02-27|Africa|S_Africa'
+	'EPIISL75711|A|mallard/Minnesota/Sg-00056/2007|H10N7|2007-08-03|N_America|USA'
+	'EPIISL77451|A|mallard/PT/14683/2006|H6N7|2006-03-29|Europe|Portugal'
+	'EPIISL7987328|A|domestic_goose/Italy/21VIR649/2021|H7N7|2021-01-29|Europe|Italy'
+	'EPIISL82508|A|northern_shoveler/Washington/44249-731/2006|H10N7|2006-11-30|N_America|USA'
+	'EPIISL83557|A|northern_shoveler/California/JN950/2006|H10N7|2006-12-06|N_America|USA'
+	'EPIISL83993|A|chicken/Netherlands/03007782/03|H7N7|2003-03-13|Europe|Netherlands'
+	'EPIISL84029|A|chicken/Netherlands/03012012/03|H7N7|2003-04-13|Europe|Netherlands'
+	'EPIISL84030|A|chicken/Netherlands/03012010/03|H7N7|2003-04-13|Europe|Netherlands'
+	'EPIISL84558|A|mallard/Netherlands/02/2000|H10N7|2000|Europe|Netherlands'
+	'EPIISL84564|A|mallard/Netherlands/9/2005|H7N7|2005|Europe|Netherlands'
+	'EPIISL86042|A|turkey/Germany-NW/R655/2009|H7N7|2009|Europe|Germany'
+	'EPIISL8719|A|laughing_gull/NJ/798/1986|H2N7|1986-05-12|N_America|USA'
+	'EPIISL87539|A|duck/Potsdam/15/1980|H7N7|1980|Europe|Germany'
+	'EPIISL8778|A|pintail_duck/ALB/303/1977|H10N7|1977-09-03|N_America|Canada'
+	'EPIISL8779|A|mallard/Alberta/209/2003|H10N7|2003-08-07|N_America|Canada'
+	'EPIISL8865|A|shorebird/DE/75/2004|H5N7|2004-05-17|N_America|USA'
+	'EPIISL8875|A|ruddy_turnstone/DE/2378/1988|H7N7|1988-05-31|N_America|USA'
+	'EPIISL8876|A|red_knot/NJ/325/1989|H7N7|1989-04-26|N_America|USA'
+	'EPIISL8890|A|mallard_duck/ALB/302/1977|H10N7|1977-08-31|N_America|Canada'
+	'EPIISL8895|A|redhead_duck/ALB/767/1984|H10N7|1984-08-11|N_America|Canada'
+	'EPIISL8896|A|ruddy_turnstone/DE/2764/1987|H10N7|1987-05-27|N_America|USA'
+	'EPIISL8899|A|mallard/ALB/196/1996|H10N7|1996|N_America|Canada'
+	'EPIISL8901|A|mallard/Alberta/208/2000|H10N7|2000-08-19|N_America|Canada'
+	'EPIISL89157|A|equine/Prague/2/1956|H7N7|1956-06-11|Europe|Czech'
+	'EPIISL94154|A|mallard/California/1353/2010|H10N7|2010-08-06|N_America|USA'
+	'EPIISL94190|A|greater_white-fronted_goose/California/HKWF446C/2007|H10N7|2007-11-04|N_America|USA'
+	'EPIISL94268|A|green-winged_teal/California/10197/2008|H10N7|2008-12-14|N_America|USA'
+	'EPIISL94296|A|mallard/California/9704/2008|H10N7|2008-12-07|N_America|USA'
+	'EPIISL95395|A|lesser_scaup/Illinois/4115/2009|H10N7|2009-11-29|N_America|USA'
+	'EPIISL97230|A|mallard/Sweden/7206/2004|H7N7|2004-11-22|Europe|Sweden'
+	'EPIISL99349|A|shorebird/Delaware_Bay/277/2000|H9N7|2000-05-15|N_America|USA'
+	'EPIISL99402|A|shorebird/Delaware_Bay/31/1996|H9N7|1996-05-14|N_America|USA'
+	'MH134697|A|brown-hooded_gull/Chile/C15103/2016|H9N7|2016-08-19|S_America|Chile'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('EPIISL146012|A|equine/Detroit/3/1964|H7N7|1964|N_America|USA'[&!color=#990099]:3.0E-6,((('EPIISL129924|A|equine/Kirgiziya/26/1974|H7N7|1974|Asia|Kyrgyzstan'[&!color=#990099]:0.001947,('EPIISL29945|A|equine/Lexington/1/1966|H7N7|1966|N_America|USA'[&!color=#990099]:0.001461,('EPIISL89157|A|equine/Prague/2/1956|H7N7|1956-06-11|Europe|Czech'[&!color=#990099]:0.014306,((((('Agustina|A|cinnamon_teal/Argentina/CIP112-3955/2019|H10N7|2019-07-25|S_America|Argentina'[&!color=#009933]:0.004771,'Agustina|A|silver_teal/Argentina/CIP112-4265/2019|H10N7|2019-07-30|S_America|Argentina'[&!color=#009933]:0.012057)[&label=100,!color=#009933]:0.007176,(('EPIISL327593|A|yellow-billed_pintail/Chile/C19357/2016|H10N7|2016-11-22|S_America|Chile'[&!color=#0099ff]:1.0E-6,'EPIISL327594|A|yellow-billed_pintail/Chile/C19338/2016|H10N7|2016-11-22|S_America|Chile'[&!color=#0099ff]:6.24E-4)[&label=100,!color=#0099ff]:0.001254,'EPIISL327586|A|yellow-billed_teal/Chile/C20255/2016|H10N7|2016-12-14|S_America|Chile'[&!color=#0099ff]:0.001252)[&label=100,!color=#0099ff]:0.0061)[&label=100,!color=#0099ff]:0.018535,(('EPIISL380997|A|silver_teal/Argentina/CIP051-188/2011|H7N7|2011-06|S_America|Argentina'[&!color=#0099ff]:0.008912,'EPIISL380994|A|silver_teal/Argentina/CIP051-171/2011|H10N7|2011-06|S_America|Argentina'[&!color=#0099ff]:1.0E-6)[&label=53,!color=#0099ff]:3.0E-6,'EPIISL380996|A|silver_teal/Argentina/CIP051-175/2011|H10N7|2011-06|S_America|Argentina'[&!color=#0099ff]:0.001249)[&label=94,!color=#0099ff]:0.002741)[&label=100,!color=#0099ff]:0.163222,((((((((((((((((((((((((((((((((('MH134697|A|brown-hooded_gull/Chile/C15103/2016|H9N7|2016-08-19|S_America|Chile'[&!color=#0099ff]:0.013146,'EPIISL222694|A|gray_plover/Chile/C1313/2015|H9N7|2015-09-25|S_America|Chile'[&!color=#0099ff]:4.89E-4)[&label=84,!color=#0099ff]:0.003933,(((((('EPIISL294157|A|mallard_duck/Wisconsin/16OS4004/2016|H1N7|2016-12-02|N_America|USA'[&!color=#990033]:0.002614,'EPIISL294154|A|Northern_shoveler/Ohio/16OS5078/2016|H10N7|2016-11-17|N_America|USA'[&!color=#990033]:0.001172)[&label=91,!color=#990033]:6.19E-4,('EPIISL309611|A|ruddy_turnstone/New_Jersey/UGAI17-2770/2017|H5N7|2017-05-22|N_America|USA'[&!color=#990033]:6.26E-4,'EPIISL309633|A|ruddy_turnstone/New_Jersey/UGAI17-2983/2017|H3N7|2017-05-27|N_America|USA'[&!color=#990033]:2.0E-6)[&label=100,!color=#990033]:0.00691)[&label=92,!color=#990033]:7.18E-4,((('EPIISL505570|A|Red_Knot/Delaware/125/2019|H10N7|2019-05-20|N_America|USA'[&!color=#990033]:0.009744,'EPIISL506007|A|ruddy_turnstone/South_Carolina/UGAI18-892/2018|H10N7|2018-05-23|N_America|USA'[&!color=#990033]:0.008402)[&label=100,!color=#990033]:0.001186,('EPIISL376261|A|mallard/Wisconsin/17OS4049/2017|H10N7|2017-11-11|N_America|USA'[&!color=#990033]:6.3E-4,(((('EPIISL16215565|A|Mallard/Alberta/610/2021|H10N7|2021-08-26|N_America|Canada'[&!color=#990033]:0.003223,'EPIISL6795363|A|mallard/Alaska/AH0177454/2021|H10N7|2021-08-02|N_America|USA'[&!color=#990033]:0.011758)[&label=100,!color=#990033]:0.001141,'EPIISL14777732|A|Ruddy_Turnstone/Delaware/414/2021|H10N7|2021-06-01|N_America|USA'[&!color=#990033]:0.00772)[&label=100,!color=#990033]:0.003206,('EPIISL14767422|A|northern_pintail/Alaska/AK20-341/2020|H10N7|2020-09-24|N_America|USA'[&!color=#990033]:0.001849,('EPIISL14767412|A|mallard/Alaska/AK20-256/2020|H10N7|2020-09-20|N_America|USA'[&!color=#990033]:1.0E-6,'EPIISL14767404|A|green-winged_teal/Alaska/AK20-416/2020|H10N7|2020-10-09|N_America|USA'[&!color=#990033]:0.001254)[&label=100,!color=#990033]:0.003196)[&label=100,!color=#990033]:0.009)[&label=94,!color=#990033]:3.0E-6,'EPIISL393447|A|Common_Goldeneye/Wisconsin/18OS2943/2018|H10N7|2018-11-28|N_America|USA'[&!color=#990033]:0.002524)[&label=100,!color=#990033]:0.003803)[&label=100,!color=#990033]:6.17E-4)[&label=100,!color=#990033]:0.003155,'EPIISL393482|A|Mallard/Ohio/18OS1035/2018|H10N7|2018-03-20|N_America|USA'[&!color=#990033]:0.00442)[&label=72,!color=#990033]:3.0E-6)[&label=100,!color=#990033]:6.25E-4,'EPIISL503047|A|mallard_duck/California/UCD402/2018|H2N7|2018-06-27|N_America|USA'[&!color=#990033]:0.014244)[&label=71,!color=#990033]:2.0E-6,('EPIISL294009|A|mallard_duck/Illinois/16OS4899/2016|H10N7|2016-12-20|N_America|USA'[&!color=#990033]:6.27E-4,'EPIISL14767415|A|mallard/Alaska/UGAI17-5295/2017|H10N7|2017-09-25|N_America|USA'[&!color=#990033]:0.007003)[&label=100,!color=#990033]:6.27E-4)[&label=100,!color=#990033]:0.002541,'EPIISL254845|A|mallard_duck/Ohio/15OS7675/2015|H7N7|2015-11-25|N_America|USA'[&!color=#990033]:0.001234)[&label=100,!color=#990033]:0.006553)[&label=99,!color=#990033]:0.002678,(('EPIISL254743|A|mallard/Kentucky/AH0069753/2016|H7N7|2016-02-02|N_America|USA'[&!color=#990033]:0.009693,('EPIISL254792|A|American_wigeon/Utah/AH0067123/2015|H7N7|2015-12-02|N_America|USA'[&!color=#990033]:0.003148,('EPIISL219869|A|blue-winged_teal/Texas/UGAI15-6890/2015|H14N7|2015-09-20|N_America|USA'[&!color=#990033]:0.002515,'EPIISL254768|A|duck/Pennsylvania/15-030188-1/2015|H7N7|2015-09-15|N_America|USA'[&!color=#990033]:0.001252)[&label=74,!color=#990033]:3.0E-6)[&label=100,!color=#990033]:0.006457)[&label=89,!color=#990033]:2.0E-6,(('EPIISL216765|A|mallard/Maryland/13OS3318/2014|H10N7|2014-06-24|N_America|USA'[&!color=#990033]:1.0E-6,'EPIISL216764|A|mallard/Maryland/13OS3316/2014|H10N7|2014-06-24|N_America|USA'[&!color=#990033]:6.24E-4)[&label=100,!color=#990033]:0.003861,'EPIISL215597|A|mallard/Ohio/14OS3237/2014|H10N7|2014-11-24|N_America|USA'[&!color=#990033]:0.003738)[&label=96,!color=#990033]:0.00246)[&label=94,!color=#990033]:0.001302)[&label=99,!color=#990033]:0.002993,('EPIISL162290|A|American_green-winged_teal/Ohio/13OS2070/2013|H6N7|2013-09-21|N_America|USA'[&!color=#990033]:0.003157,('EPIISL189540|A|mallard/Missouri/12OS5756/2012|H10N7|2012-12-10|N_America|USA'[&!color=#990033]:0.003103,((('EPIISL254728|A|mallard/New_York/AH0081558/2016|H7N7|2016-01-29|N_America|USA'[&!color=#990033]:6.26E-4,('EPIISL309617|A|ruddy_turnstone/New_Jersey/UGAI17-2783/2017|H5N7|2017-05-22|N_America|USA'[&!color=#990033]:6.37E-4,'EPIISL309632|A|ruddy_turnstone/New_Jersey/UGAI17-2975/2017|H5N7|2017-05-27|N_America|USA'[&!color=#990033]:6.17E-4)[&label=100,!color=#990033]:0.006354)[&label=70,!color=#990033]:3.0E-6,'EPIISL503782|A|Mallard/Ohio/19OS0095/2019|H10N7|2019-03-26|N_America|USA'[&!color=#990033]:0.00957)[&label=100,!color=#990033]:0.009986,'EPIISL378296|A|Green-Winged_Teal/Utah/D1615513/2016|H10N7|2016-12-07|N_America|USA'[&!color=#990033]:0.014391)[&label=96,!color=#990033]:0.001121)[&label=94,!color=#990033]:6.82E-4)[&label=93,!color=#990033]:6.25E-4)[&label=75,!color=#990033]:2.0E-6,'EPIISL158595|A|American_green-winged_teal/Mississippi/12OS405/2012|H10N7|2012-01-18|N_America|USA'[&!color=#990033]:1.0E-6)[&label=63,!color=#990033]:1.0E-6,'EPIISL397603|A|ruddy_turnstone/New_Jersey/AI12-2344/2012|H7N7|2012-05-20|N_America|USA'[&!color=#990033]:0.004424)[&label=97,!color=#990033]:0.00188,((((('EPIISL371832|A|ruddy_turnstone/Delaware_Bay/538/2013|H10N7|2013-05-23|N_America|USA'[&!color=#990033]:6.24E-4,('EPIISL397690|A|ruddy_turnstone/New_Jersey/AI13-2830/2013|H10N7|2013-05-29|N_America|USA'[&!color=#990033]:1.0E-6,'EPIISL371834|A|ruddy_turnstone/Delaware_Bay/479/2013|H10N7|2013-05-23|N_America|USA'[&!color=#990033]:1.0E-6)[&label=74,!color=#990033]:1.0E-6)[&label=99,!color=#990033]:0.001254,'EPIISL397651|A|ruddy_turnstone/New_Jersey/AI13-2299/2013|H10N7|2013-05-21|N_America|USA'[&!color=#990033]:0.001252)[&label=100,!color=#990033]:0.004425,'EPIISL273358|A|mallard/Minnesota/AI11-4412/2011|H10N7|2011-09-07|N_America|USA'[&!color=#990033]:0.00125)[&label=36,!color=#990033]:1.0E-6,'EPIISL158434|A|mallard/Wisconsin/11OS3578/2011|H10N7|2011-10-30|N_America|USA'[&!color=#990033]:0.001251)[&label=99,!color=#990033]:6.26E-4,'EPIISL133604|A|mallard/Ohio/11OS2044/2011|H10N7|2011-08-17|N_America|USA'[&!color=#990033]:6.25E-4)[&label=100,!color=#990033]:0.001255)[&label=10,!color=#990033]:2.0E-6,('EPIISL134894|A|mallard/Illinois/10OS3786/2010|H10N7|2010-11-27|N_America|USA'[&!color=#990033]:0.004429,'EPIISL135059|A|mallard/Missouri/10MO0391/2010|H10N7|2010-12-22|N_America|USA'[&!color=#990033]:0.002508)[&label=22,!color=#990033]:2.0E-6)[&label=61,!color=#990033]:2.0E-6,('EPIISL148234|A|black_scoter/Maine/276/2011|H10N7|2011-12-03|N_America|USA'[&!color=#990033]:0.010416,'EPIISL256345|A|northern_pintail/California/AH0011948/2015|H7N7|2015-01-18|N_America|USA'[&!color=#990033]:0.02748)[&label=84,!color=#990033]:4.8E-4)[&label=100,!color=#990033]:0.004455,'EPIISL95395|A|lesser_scaup/Illinois/4115/2009|H10N7|2009-11-29|N_America|USA'[&!color=#990033]:0.003191)[&label=100,!color=#990033]:0.00186,'EPIISL397533|A|ruddy_turnstone/Delaware/AI09-743/2009|H10N7|2009-05-28|N_America|USA'[&!color=#990033]:0.004448)[&label=84,!color=#990033]:2.0E-6,(('EPIISL141809|A|northern_pintail/Interior_Alaska/9BM8084R0/2009|H10N7|2009|N_America|USA'[&!color=#990033]:0.002522,'EPIISL137990|A|northern_pintail/Interior_Alaska/9BM11387R0/2009|H10N7|2009|N_America|USA'[&!color=#990033]:0.002526)[&label=100,!color=#990033]:0.001889,'EPIISL94154|A|mallard/California/1353/2010|H10N7|2010-08-06|N_America|USA'[&!color=#990033]:0.005063)[&label=97,!color=#990033]:0.001259)[&label=100,!color=#990033]:0.003803,(('EPIISL142434|A|northern_shoveler/Minnesota/Sg-00612/2008|H10N7|2008-07-29|N_America|USA'[&!color=#990033]:1.0E-6,'EPIISL142480|A|mallard/Minnesota/Sg-01030/2008|H10N7|2008-09-12|N_America|USA'[&!color=#990033]:0.001876)[&label=100,!color=#990033]:0.002514,'EPIISL75711|A|mallard/Minnesota/Sg-00056/2007|H10N7|2007-08-03|N_America|USA'[&!color=#990033]:6.25E-4)[&label=100,!color=#990033]:6.34E-4)[&label=100,!color=#990033]:0.005787,(((('EPIISL158593|A|northern_shoveler/Mississippi/12OS362/2012|H7N7|2012-01-17|N_America|USA'[&!color=#990033]:0.001247,('EPIISL135039|A|American_green-winged_teal/Mississippi/11OS255/2011|H7N7|2011-01-15|N_America|USA'[&!color=#990033]:1.0E-6,'EPIISL135044|A|northern_shoveler/Mississippi/11OS202/2011|H7N7|2011-01-14|N_America|USA'[&!color=#990033]:0.001247)[&label=95,!color=#990033]:2.0E-6)[&label=100,!color=#990033]:0.005148,'EPIISL230161|A|blue-winged_teal/Texas/UGAI14-1210TX/2014|H7N7|2014-03-09|N_America|USA'[&!color=#990033]:0.020873)[&label=97,!color=#990033]:0.011194,'EPIISL94190|A|greater_white-fronted_goose/California/HKWF446C/2007|H10N7|2007-11-04|N_America|USA'[&!color=#990033]:0.001243)[&label=96,!color=#990033]:0.00318,'EPIISL190237|A|oystercatcher/Peru/MM152/2008|H10N7|2008-11-05|S_America|Peru'[&!color=#0099ff]:0.013218)[&label=95,!color=#990033]:0.003795)[&label=93,!color=#990033]:0.001265,((('EPIISL216660|A|mallard/Maryland/09OS1125/2009|H10N7|2009-07-31|N_America|USA'[&!color=#990033]:0.00447,('EPIISL142419|A|ruddy_turnstone/New_Jersey/Sg-00543/2008|H3N7|2008-06-01|N_America|USA'[&!color=#990033]:0.001253,'EPIISL142378|A|ruddy_turnstone/New_Jersey/Sg-00490/2008|H10N7|2008-05-16|N_America|USA'[&!color=#990033]:1.0E-6)[&label=100,!color=#990033]:5.89E-4)[&label=100,!color=#990033]:0.00449,'EPIISL131868|A|American_black_duck/New_Brunswick/04395/2007|H10N7|2007-09-04|N_America|Canada'[&!color=#990033]:0.004485)[&label=100,!color=#990033]:0.003801,((((('EPIISL137687|A|blue-winged_teal/New_Brunswick/00598/2010|H3N7|2010-08-15|N_America|Canada'[&!color=#990033]:1.0E-6,'EPIISL137813|A|mallard/New_Brunswick/00593/2010|H3N7|2010-08-15|N_America|Canada'[&!color=#990033]:1.0E-6)[&label=65,!color=#990033]:3.0E-6,'EPIISL137689|A|blue-winged_teal/New_Brunswick/00600/2010|H3N7|2010-08-15|N_America|Canada'[&!color=#990033]:6.28E-4)[&label=100,!color=#990033]:0.018285,'EPIISL94268|A|green-winged_teal/California/10197/2008|H10N7|2008-12-14|N_America|USA'[&!color=#990033]:0.002932)[&label=100,!color=#990033]:0.008077,'EPIISL180943|A|mallard/Maryland/07OS73/2007|H10N7|2007-01-20|N_America|USA'[&!color=#990033]:0.004543)[&label=98,!color=#990033]:5.1E-4,('EPIISL16393|A|Mallard/Alberta/8734/07|H7N7|2007|N_America|Canada'[&!color=#990033]:0.005699,('EPIISL142334|A|ruddy_turnstone/New_Jersey/AI06-582/2006|H6N7|2006-05-24|N_America|USA'[&!color=#990033]:2.0E-6,'EPIISL397909|A|ruddy_turnstone/Delaware/1523544/2006|H7N7|2006-05-24|N_America|USA'[&!color=#990033]:6.25E-4)[&label=100,!color=#990033]:6.25E-4)[&label=37,!color=#990033]:2.0E-6)[&label=92,!color=#990033]:2.0E-6)[&label=97,!color=#990033]:0.002525)[&label=94,!color=#990033]:0.001826,'EPIISL94296|A|mallard/California/9704/2008|H10N7|2008-12-07|N_America|USA'[&!color=#990033]:0.019224)[&label=89,!color=#990033]:0.003885,('EPIISL83557|A|northern_shoveler/California/JN950/2006|H10N7|2006-12-06|N_America|USA'[&!color=#990033]:0.013344,('EPIISL138171|A|shorebird/Delaware_Bay/10/2004|H10N7|2004-05-15|N_America|USA'[&!color=#990033]:6.25E-4,'EPIISL397959|A|ruddy_turnstone/New_Jersey/1148672/2004|H10N7|2004-05-17|N_America|USA'[&!color=#990033]:1.0E-6)[&label=100,!color=#990033]:0.002883)[&label=96,!color=#990033]:0.001081)[&label=89,!color=#990033]:0.013967,'EPIISL138162|A|mallard/Alberta/150/2002|H10N7|2002-07-02|N_America|Canada'[&!color=#990033]:0.0136)[&label=66,!color=#990033]:2.0E-6,((((('EPIISL137907|A|shorebird/Delaware_Bay/111/2009|H10N7|2009-05-20|N_America|USA'[&!color=#990033]:0.010531,('EPIISL150332|A|mallard/California/3200/2012|H2N7|2012-08-08|N_America|USA'[&!color=#990033]:0.001123,'EPIISL257279|A|northern_shoveler/Alaska/UGAI15-7315/2015|H10N7|2015-09-29|N_America|USA'[&!color=#990033]:0.018553)[&label=100,!color=#990033]:0.008834)[&label=100,!color=#990033]:0.017659,'EPIISL8779|A|mallard/Alberta/209/2003|H10N7|2003-08-07|N_America|Canada'[&!color=#990033]:0.006625)[&label=96,!color=#990033]:0.001274,((('EPIISL8865|A|shorebird/DE/75/2004|H5N7|2004-05-17|N_America|USA'[&!color=#990033]:1.0E-6,'EPIISL397957|A|ruddy_turnstone/New_Jersey/1148670/2004|H10N7|2004-05-17|N_America|USA'[&!color=#990033]:6.28E-4)[&label=100,!color=#990033]:0.001258,('EPIISL397904|A|ruddy_turnstone/Delaware/1148666/2004|H10N7|2004-05-21|N_America|USA'[&!color=#990033]:6.3E-4,'EPIISL22535|A|ruddy_turnstone/DE/167/2004|H10N7|2004|N_America|USA'[&!color=#990033]:6.28E-4)[&label=100,!color=#990033]:6.33E-4)[&label=100,!color=#990033]:0.00595,('EPIISL142113|A|ruddy_turnstone/New_Jersey/AI03-128/2003|H9N7|2003-05-21|N_America|USA'[&!color=#990033]:0.001385,('EPIISL67411|A|mallard/Maryland/220/2003|H10N7|2003|N_America|USA'[&!color=#990033]:1.0E-6,'EPIISL67410|A|mallard/Maryland/210/2003|H10N7|2003|N_America|USA'[&!color=#990033]:1.0E-6)[&label=100,!color=#990033]:0.004329)[&label=100,!color=#990033]:0.003237)[&label=100,!color=#990033]:0.005929)[&label=97,!color=#990033]:0.003636,((('EPIISL82508|A|northern_shoveler/Washington/44249-731/2006|H10N7|2006-11-30|N_America|USA'[&!color=#990033]:6.29E-4,'EPIISL25482|A|northern_pintail/Alaska/44184-116/2006|H10N7|2006-08-25|N_America|USA'[&!color=#990033]:1.0E-6)[&label=63,!color=#990033]:1.0E-6,'EPIISL25481|A|northern_pintail/Alaska/44161-018/2006|H10N7|2006-08-12|N_America|USA'[&!color=#990033]:0.001893)[&label=100,!color=#990033]:0.020137,'EPIISL8901|A|mallard/Alberta/208/2000|H10N7|2000-08-19|N_America|Canada'[&!color=#990033]:0.005465)[&label=91,!color=#990033]:9.21E-4)[&label=68,!color=#990033]:2.0E-6,((('EPIISL138120|A|shorebird/Delaware_Bay/142/2001|H10N7|2001-05-18|N_America|USA'[&!color=#990033]:0.002524,(('EPIISL398009|A|ruddy_turnstone/New_Jersey/828223/2001|H10N7|2001-05-23|N_America|USA'[&!color=#990033]:6.28E-4,'EPIISL138111|A|shorebird/Delaware_Bay/37/2001|H10N7|2001-05-17|N_America|USA'[&!color=#990033]:6.28E-4)[&label=23,!color=#990033]:1.0E-6,'EPIISL397991|A|ruddy_turnstone/New_Jersey/471613/2001|H10N7|2001-05-23|N_America|USA'[&!color=#990033]:1.0E-6)[&label=40,!color=#990033]:1.0E-6)[&label=100,!color=#990033]:6.28E-4,'EPIISL397911|A|ruddy_turnstone/Delaware/421732/2001|H12N7|2001-05-20|N_America|USA'[&!color=#990033]:1.0E-6)[&label=100,!color=#990033]:0.005076,'EPIISL141313|A|mallard/Minnesota/346268/2000|H6N7|2000|N_America|USA'[&!color=#990033]:0.002536)[&label=56,!color=#990033]:2.0E-6)[&label=87,!color=#990033]:6.3E-4)[&label=83,!color=#990033]:6.27E-4,'EPIISL22542|A|northern_shoveler/TX/56/2000|H10N7|2000|N_America|USA'[&!color=#990033]:0.004443)[&label=46,!color=#990033]:3.0E-6,'EPIISL138133|A|shorebird/Delaware_Bay/212/2000|H10N7|2000-05-15|N_America|USA'[&!color=#990033]:0.008964)[&label=84,!color=#990033]:0.001233,'EPIISL68526|A|mallard/Minnesota/17/1999|H7N7|1999|N_America|USA'[&!color=#990033]:0.007826)[&label=84,!color=#990033]:0.0032,('EPIISL8899|A|mallard/ALB/196/1996|H10N7|1996|N_America|Canada'[&!color=#990033]:0.001256,('EPIISL138100|A|mallard/Alberta/90/1997|H10N7|1997-07-31|N_America|Canada'[&!color=#990033]:0.001728,('EPIISL20859|A|quail/California/1022/1999|H10N7|1999|N_America|USA'[&!color=#990033]:0.001321,'EPIISL20857|A|chicken/California/755/1999|H10N7|1999|N_America|USA'[&!color=#990033]:0.00199)[&label=100,!color=#990033]:0.006763)[&label=96,!color=#990033]:8.09E-4)[&label=59,!color=#990033]:3.0E-6)[&label=78,!color=#990033]:6.14E-4,('EPIISL99349|A|shorebird/Delaware_Bay/277/2000|H9N7|2000-05-15|N_America|USA'[&!color=#990033]:0.016638,'EPIISL138101|A|mallard/Alberta/71/1998|H10N7|1998-08-05|N_America|Canada'[&!color=#990033]:0.005262)[&label=99,!color=#990033]:0.001764)[&label=79,!color=#990033]:0.00256,('EPIISL20858|A|emu/California/2092/1996|H10N7|1996|N_America|USA'[&!color=#990033]:0.004585,'EPIISL138106|A|shorebird/Delaware_Bay/180/1999|H10N7|1999-05-24|N_America|USA'[&!color=#990033]:0.017935)[&label=100,!color=#990033]:0.002794)[&label=79,!color=#990033]:0.003652,'EPIISL138090|A|mallard/Alberta/2/1995|H10N7|1995-08-03|N_America|Canada'[&!color=#990033]:0.008935)[&label=79,!color=#990033]:0.003813,'EPIISL5798|A|pintail/Alberta/129/1993|H10N7|1993-12-01|N_America|Canada'[&!color=#990033]:0.00931)[&label=79,!color=#990033]:0.010294,('EPIISL189660|A|shorebird/Delaware_Bay/285/1994|H7N7|1994-05-23|N_America|USA'[&!color=#990033]:0.001275,'EPIISL189665|A|red_knot/Delaware_Bay/242/1994|H7N7|1994-05-23|N_America|USA'[&!color=#990033]:0.001255)[&label=100,!color=#990033]:0.015738)[&label=72,!color=#990033]:6.1E-5,('EPIISL70102|A|duck/Alaska/702/1991|H8N7|1991|N_America|USA'[&!color=#990033]:0.00381,('EPIISL70101|A|duck/Alaska/658/1991|H10N7|1991|N_America|USA'[&!color=#990033]:0.00189,'EPIISL68844|A|duck/Alaska/712/1991|H10N7|1991|N_America|USA'[&!color=#990033]:6.28E-4)[&label=100,!color=#990033]:0.001262)[&label=99,!color=#990033]:0.003223)[&label=78,!color=#990033]:0.004389,'EPIISL68853|A|turkey/VA/31409/1991|H10N7|1991|N_America|USA'[&!color=#990033]:0.007215)[&label=71,!color=#990033]:0.007196,((('EPIISL6959|A|mallard/Ohio/122/1989|H10N7|1989-10-19|N_America|USA'[&!color=#990033]:0.001257,'EPIISL6505|A|mallard/Ohio/99/1989|H10N7|1989-10-19|N_America|USA'[&!color=#990033]:1.0E-6)[&label=71,!color=#990033]:2.0E-6,'EPIISL138075|A|ruddy_turnstone/New_Jersey/146/1990|H10N7|1990-05-26|N_America|USA'[&!color=#990033]:0.008307)[&label=100,!color=#990033]:0.006467,('EPIISL99402|A|shorebird/Delaware_Bay/31/1996|H9N7|1996-05-14|N_America|USA'[&!color=#990033]:0.010992,'EPIISL68714|A|quail/NJ/25254-22/1995|H10N7|1995|N_America|USA'[&!color=#990033]:0.010271)[&label=100,!color=#990033]:0.010322)[&label=87,!color=#990033]:2.0E-6)[&label=65,!color=#990033]:0.001796,('EPIISL142369|A|green-winged_teal/Louisiana/169GW/1988|H10N7|1988|N_America|USA'[&!color=#990033]:0.004454,(('EPIISL8876|A|red_knot/NJ/325/1989|H7N7|1989-04-26|N_America|USA'[&!color=#990033]:0.014597,('EPIISL138174|A|ruddy_turnstone/Delaware_Bay/2763/1987|H10N7|1987-05-20|N_America|USA'[&!color=#990033]:6.09E-4,'EPIISL8896|A|ruddy_turnstone/DE/2764/1987|H10N7|1987-05-27|N_America|USA'[&!color=#990033]:0.002546)[&label=100,!color=#990033]:0.003811)[&label=100,!color=#990033]:0.006607,('EPIISL138175|A|mallard/Alberta/553/1986|H10N7|1986-08-19|N_America|Canada'[&!color=#990033]:0.007743,(('EPIISL119137|A|sanderling/New_Jersey/766/1986|H2N7|1986-05-12|N_America|USA'[&!color=#990033]:0.005382,('EPIISL119136|A|sanderling/New_Jersey/756/1986|H2N7|1986-05-12|N_America|USA'[&!color=#990033]:6.31E-4,('EPIISL8719|A|laughing_gull/NJ/798/1986|H2N7|1986-05-12|N_America|USA'[&!color=#990033]:6.32E-4,'EPIISL119138|A|shorebird/New_Jersey/845/1986|H2N7|1986-05-13|N_America|USA'[&!color=#990033]:1.0E-6)[&label=100,!color=#990033]:6.31E-4)[&label=100,!color=#990033]:0.001016)[&label=100,!color=#990033]:0.016287,((('EPIISL69993|A|turkey/MN/3/1979|H10N7|1979|N_America|USA'[&!color=#990033]:0.001263,'EPIISL5835|A|mallard_duck/Minnesota/19/1979|H10N7|1979-08-01|N_America|USA'[&!color=#990033]:0.001265)[&label=100,!color=#990033]:0.003015,('EPIISL8890|A|mallard_duck/ALB/302/1977|H10N7|1977-08-31|N_America|Canada'[&!color=#990033]:3.0E-6,('EPIISL8778|A|pintail_duck/ALB/303/1977|H10N7|1977-09-03|N_America|Canada'[&!color=#990033]:6.34E-4,'EPIISL290314|A|giant_petrel/Antarctica/E96/2011|H4N7|2011-01-09|Antarctica|Antarctica'[&!color=#0099ff]:0.005105)[&label=100,!color=#990033]:6.27E-4)[&label=100,!color=#990033]:0.015417)[&label=100,!color=#990033]:0.001651,'EPIISL8895|A|redhead_duck/ALB/767/1984|H10N7|1984-08-11|N_America|Canada'[&!color=#990033]:0.011467)[&label=100,!color=#990033]:0.002638)[&label=100,!color=#990033]:0.002475)[&label=99,!color=#990033]:0.00256)[&label=95,!color=#990033]:0.009149)[&label=95,!color=#990033]:6.35E-4)[&label=64,!color=#990033]:0.003164,'EPIISL8875|A|ruddy_turnstone/DE/2378/1988|H7N7|1988-05-31|N_America|USA'[&!color=#990033]:2.0E-6)[&label=100,!color=#990033]:0.115253)[&label=100]:0.350343,(((('EPIISL131432|A|ruddy_turnstone/Delaware_Bay/149/1999|H11N7|1999-05-24|N_America|USA'[&!color=#990033]:0.021414,'EPIISL103698|A|turkey/Ireland/PV8/1995|H7N7|1995|Europe|Ireland'[&!color=#ff9900]:0.006888)[&label=99,!color=#ff9900]:0.0093,((((((((('EPIISL84564|A|mallard/Netherlands/9/2005|H7N7|2005|Europe|Netherlands'[&!color=#ff9900]:0.008411,'EPIISL257185|A|chicken/Netherlands/06022003/2006|H7N7|2006-08-01|Europe|Netherlands'[&!color=#ff9900]:0.004471)[&label=100,!color=#ff9900]:0.002436,'EPIISL22604|A|whooper_swan/Norway/10_438/2006|H7N7|2006|Europe|Norway'[&!color=#ff9900]:0.009207)[&label=100,!color=#ff9900]:0.01922,((((((('EPIISL189319|A|mallard/Sweden/5932/2005|H10N7|2005-11-23|Europe|Sweden'[&!color=#ff9900]:0.004558,((('EPIISL189320|A|mallard/Sweden/5994/2005|H7N7|2005-12-06|Europe|Sweden'[&!color=#ff9900]:6.42E-4,('EPIISL310191|A|mallard/Sweden/100993/2008|H7N7|2008-05-01|Europe|Sweden'[&!color=#ff9900]:0.001851,'EPIISL26367|A|Mallard/Sweden/100993/2008|H7N7|2008|Europe|Sweden'[&!color=#ff9900]:0.003223)[&label=100,!color=#ff9900]:0.008357)[&label=100,!color=#ff9900]:0.002565,'EPIISL16392|A|Anas_crecca/Germany/Wv177/05|H7N7|2005|Europe|Germany'[&!color=#ff9900]:0.002519)[&label=100,!color=#ff9900]:0.001933,'EPIISL243381|A|mallard_duck/Netherlands/2/2007|H10N7|2007-03-23|Europe|Netherlands'[&!color=#ff9900]:0.003814)[&label=100,!color=#ff9900]:0.001808)[&label=100,!color=#ff9900]:0.009137,(('EPIISL97230|A|mallard/Sweden/7206/2004|H7N7|2004-11-22|Europe|Sweden'[&!color=#ff9900]:0.006531,'EPIISL243520|A|mallard_duck/Netherlands/16/2006|H10N7|2006-01-14|Europe|Netherlands'[&!color=#ff9900]:0.011167)[&label=100,!color=#ff9900]:0.003923,'EPIISL77451|A|mallard/PT/14683/2006|H6N7|2006-03-29|Europe|Portugal'[&!color=#ff9900]:0.015809)[&label=100,!color=#ff9900]:0.001099)[&label=100,!color=#ff9900]:0.002666,(('EPIISL120200|A|shoveler/Egypt/01198-NAMRU3/2007|H10N7|2007-01-19|Africa|Egypt'[&!color=#ff9900]:0.004361,'EPIISL370664|A|duck/Hokkaido/59/2007|H7N7|2007-08-26|Asia|Japan'[&!color=#ff9900]:0.005828)[&label=100,!color=#ff9900]:0.005896,'EPIISL120190|A|shoveler/Egypt/09864-NAMRU3/2004|H7N7|2004-12-22|Africa|Egypt'[&!color=#ff9900]:0.004901)[&label=100,!color=#ff9900]:0.00602)[&label=99,!color=#ff9900]:6.13E-4,(('EPIISL120188|A|teal/Egypt/00835-NAMRU3/2004|H7N7|2004-02-18|Africa|Egypt'[&!color=#ff9900]:0.002638,'EPIISL120186|A|shoveler/Egypt/00600-NAMRU3/2004|H10N7|2004-01-27|Africa|Egypt'[&!color=#ff9900]:5.14E-4)[&label=100,!color=#ff9900]:0.013816,('EPIISL591|A|duck/Mongolia/583/02|H4N7|2002|Asia|Mongolia'[&!color=#ff9900]:2.0E-6,'EPIISL310|A|duck/Hokkaido/Vac-2/04|H7N7|2004|Asia|Japan'[&!color=#ff9900]:2.0E-6)[&label=100,!color=#ff9900]:0.008419)[&label=98,!color=#ff9900]:5.43E-4)[&label=82,!color=#ff9900]:2.0E-6,(((((((((((('EPIISL378366|A|Eurasian_Wigeon/Netherlands/5/2007|H7N7|2007-10-22|Europe|Netherlands'[&!color=#ff9900]:0.001877,'EPIISL267318|A|mallard_duck/Netherlands/2/2014|H10N7|2014-02-17|Europe|Netherlands'[&!color=#ff9900]:6.18E-4)[&label=100,!color=#ff9900]:0.00188,'EPIISL243439|A|mallard_duck/Netherlands/13/2013|H7N7|2013-12-10|Europe|Netherlands'[&!color=#ff9900]:6.22E-4)[&label=78,!color=#ff9900]:2.0E-6,'EPIISL243434|A|mallard_duck/Netherlands/33/2014|H10N7|2014-12-16|Europe|Netherlands'[&!color=#ff9900]:0.004391)[&label=97,!color=#ff9900]:6.23E-4,('EPIISL243612|A|mallard_duck/Netherlands/2/2015|H7N7|2015-01-16|Europe|Netherlands'[&!color=#ff9900]:0.007304,'EPIISL502602|A|Anas_platyrhynchos/Belgium/11242/2016|H7N7|2016-11-30|Europe|Belgium'[&!color=#ff9900]:0.013197)[&label=97,!color=#ff9900]:3.08E-4)[&label=96,!color=#ff9900]:6.42E-4,'EPIISL362149|A|Chicken/Netherlands/15004745-001-005/2015|H7N7|2019-03-12|Europe|Netherlands'[&!color=#ff9900]:0.008913)[&label=98,!color=#ff9900]:6.06E-4,(('EPIISL243453|A|mallard_duck/Netherlands/31/2013|H10N7|2013-05-20|Europe|Netherlands'[&!color=#ff9900]:5.99E-4,'EPIISL243491|A|mallard_duck/Netherlands/32/2013|H10N7|2013-08-05|Europe|Netherlands'[&!color=#ff9900]:0.001903)[&label=100,!color=#ff9900]:0.005696,'EPIISL379990|A|Iceland_gull/Iceland/4402/2015|H10N7|2015-11|Europe|Iceland'[&!color=#ff9900]:0.008906)[&label=97,!color=#ff9900]:2.0E-6)[&label=100,!color=#ff9900]:0.009653,('EPIISL243456|A|mallard_duck/Netherlands/5/2012|H10N7|2012-05-12|Europe|Netherlands'[&!color=#ff9900]:0.006466,'EPIISL224753|A|chicken/Netherlands/15007212/15|H10N7|2015-04-29|Europe|Netherlands'[&!color=#ff9900]:0.011059)[&label=100,!color=#ff9900]:0.002466)[&label=100,!color=#ff9900]:0.001259,('EPIISL189714|A|mallard/Republic_of_Georgia/14/2011|H10N7|2011-12-13|Asia|Georgia'[&!color=#ff9900]:0.006425,((((((('EPIISL390458|A|sandpiper/Tomsk/112/2019|H14N7|2019-04-30|Europe|Russia'[&!color=#ff9900]:0.004622,'EPIISL7987328|A|domestic_goose/Italy/21VIR649/2021|H7N7|2021-01-29|Europe|Italy'[&!color=#ff9900]:0.010309)[&label=100,!color=#ff9900]:0.001145,('EPIISL12627549|A|wild_bird/Shandong/W1549/2020|H7N7|2020-03-15|Asia|China'[&!color=#ff9900]:0.003822,('EPIISL6795225|A|Duck/Sangiin_Dalai_lake/_241/2019|H7N7|2019-05-08|Asia|Mongolia'[&!color=#ff9900]:6.11E-4,'EPIISL503349|A|duck/Mongolia/6/2019|H7N7|2019-09-12|Asia|Mongolia'[&!color=#ff9900]:0.002545)[&label=100,!color=#ff9900]:0.002559)[&label=100,!color=#ff9900]:0.008437)[&label=98,!color=#ff9900]:0.002648,'EPIISL328976|A|mallard_duck/Georgia/10/2016|H7N7|2016-09-30|Asia|Georgia'[&!color=#ff9900]:0.004427)[&label=96,!color=#ff9900]:1.0E-6,'EPIISL333138|A|duck/Bangladesh/18D769/2017|H6N7|2017-01-23|Asia|Bangladesh'[&!color=#ff9900]:0.001883)[&label=100,!color=#ff9900]:4.35E-4,((((((('EPIISL4073193|A|duck/Bangladesh/44494/2020|H10N7|2020-02-22|Asia|Bangladesh'[&!color=#ff9900]:6.26E-4,'EPIISL4073180|A|duck/Bangladesh/44480/2020|H10N7|2020-02-22|Asia|Bangladesh'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.003167,'EPIISL4071629|A|duck/Bangladesh/43273/2020|H10N7|2020-01-28|Asia|Bangladesh'[&!color=#ff9900]:0.002525)[&label=100,!color=#ff9900]:0.001901,'EPIISL393520|A|White-fronted_Goose/South_Korea/KNU18-119/2018|H7N7|2018-12-31|Asia|Korea'[&!color=#ff9900]:6.28E-4)[&label=100,!color=#ff9900]:6.27E-4,'EPIISL1081358|A|mallard/Yakutia/47/2020|H7N7|2020-08-13|Europe|Russia'[&!color=#ff9900]:0.003148)[&label=87,!color=#ff9900]:2.0E-6,(('EPIISL12627436|A|wild_bird/Shandong/3588/2018|H7N7|2018-11-28|Asia|China'[&!color=#ff9900]:6.27E-4,('EPIISL12627548|A|swan/Shandong/824/2019|H7N7|2019-01-13|Asia|China'[&!color=#ff9900]:1.0E-6,'EPIISL12627544|A|swan/Shandong/662/2019|H7N7|2019-01-13|Asia|China'[&!color=#ff9900]:6.27E-4)[&label=98,!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.001255,'EPIISL4071213|A|Mallard_/South_Korea/KNU2019-33/2019|H7N7|2019-03-18|Asia|Korea'[&!color=#ff9900]:0.001256)[&label=92,!color=#ff9900]:6.28E-4)[&label=90,!color=#ff9900]:0.00125,('EPIISL17485948|A|bird/Japan/NIES-0000008/2022|H2N7|2022|Asia|Japan'[&!color=#ff9900]:0.00834,'EPIISL14867048|A|duck/Tochigi/NIES1408/2021|H10N7|2021|Asia|Japan'[&!color=#ff9900]:0.006209)[&label=100,!color=#ff9900]:0.008158)[&label=91,!color=#ff9900]:0.001734,'EPIISL1005678|A|common_teal/Chany_Lake/4/2020|H10N7|2020-08-29|Europe|Russia'[&!color=#ff9900]:0.013211)[&label=100,!color=#ff9900]:0.008097)[&label=100,!color=#ff9900]:0.012586,'EPIISL278519|A|Bean_goose/Hubei/CH-I299/2017_H7N7|H7N7|2017-02-24|Asia|China'[&!color=#ff9900]:0.010072)[&label=100,!color=#ff9900]:0.003873,('EPIISL14392497|A|Anas_platyrhynchos/Belgium/2988_0002/2021|H7N7|2021-12-08|Europe|Belgium'[&!color=#ff9900]:0.019961,'EPIISL394155|A|chicken/Netherlands/17013178-006010/2017|H10N7|2017-09-27|Europe|Netherlands'[&!color=#ff9900]:0.007719)[&label=100,!color=#ff9900]:0.012655)[&label=100,!color=#ff9900]:0.008797)[&label=100,!color=#ff9900]:0.007132)[&label=92,!color=#ff9900]:2.0E-6,((('EPIISL13984063|A|wood_sandpiper/Hebei/QHD660/2013|H10N7|2013-05-07|Asia|China'[&!color=#ff9900]:2.0E-6,'EPIISL13984058|A|mallard/Jilin/XH35/2013|H10N7|2013-04-16|Asia|China'[&!color=#ff9900]:0.001253)[&label=100,!color=#ff9900]:0.006335,'EPIISL14769880|A|wild_waterfowl/Queensland/P14-14395-34/2014|H2N7|2014-12-01|Oceania|Australia'[&!color=#ff9900]:0.01728)[&label=100,!color=#ff9900]:0.003382,(('EPIISL165810|A|waterfowl/Bangladesh/12301/2013|H6N7|2013-01-23|Asia|Bangladesh'[&!color=#ff9900]:0.008313,(((('EPIISL206697|A|duck/Mongolia/742/2015|H10N7|2015-08-31|Asia|Mongolia'[&!color=#ff9900]:0.00314,('EPIISL364028|A|wild_bird/Hunan/0114_DTHF3-18-1/2016|H10N7|2016-01-14|Asia|China'[&!color=#ff9900]:1.0E-6,'EPIISL363820|A|wild_bird/Hunan/0224_YYDTHF2-106-2/2016|H10N7|2017-02-24|Asia|China'[&!color=#ff9900]:6.26E-4)[&label=100,!color=#ff9900]:0.003153)[&label=41,!color=#ff9900]:2.0E-6,(('EPIISL309213|A|green-winged_teal/Korea/H873-5/2017|H7N7|2017-01-17|Asia|Korea'[&!color=#ff9900]:2.0E-6,'EPIISL309219|A|common_teal/Korea/H937-5/2017|H7N7|2017-02-23|Asia|Korea'[&!color=#ff9900]:6.25E-4)[&label=100,!color=#ff9900]:0.003143,'EPIISL399746|A|duck/Cambodia/C8W6M1/2018|H10N7|2018-02-06|Asia|Cambodia'[&!color=#ff9900]:0.019571)[&label=37,!color=#ff9900]:3.0E-6)[&label=69,!color=#ff9900]:6.25E-4,(((('EPIISL240614|A|duck/Ibaraki/107/2016|H7N7|2016-12-14|Asia|Japan'[&!color=#ff9900]:6.25E-4,'EPIISL257414|A|duck/Ibaraki/F10-2-5/2017|H7N7|2016-02-21|Asia|Japan'[&!color=#ff9900]:0.002522)[&label=99,!color=#ff9900]:0.001265,'EPIISL295495|A|Duck/Dongting/D76-1/2016|H5N7|2016-12-28|Asia|China'[&!color=#ff9900]:0.005077)[&label=62,!color=#ff9900]:6.19E-4,'EPIISL14768238|A|grey_teal/Victoria/11386/2018|H1N7|2018-03-17|Oceania|Australia'[&!color=#ff9900]:0.011572)[&label=29,!color=#ff9900]:3.0E-6,(('EPIISL257415|A|duck/Ibaraki/F4-2-1/2017|H7N7|2016-02-20|Asia|Japan'[&!color=#ff9900]:0.012605,(('EPIISL12627552|A|wild_bird/Shandong/W1553/2020|H7N7|2020-03-15|Asia|China'[&!color=#ff9900]:8.81E-4,'EPIISL14886524|A|duck/Bangladesh/51658/2021|H7N7|2021-12-18|Asia|Bangladesh'[&!color=#ff9900]:0.008068)[&label=97,!color=#ff9900]:0.001867,('EPIISL16886894|A|Anser_albifrons/South_Korea/163-1/2022|H10N7|2022-01-11|Asia|Korea'[&!color=#ff9900]:0.003588,(('EPIISL14835573|A|Mallard/South_Korea/KNU2021-48/2021|H7N7|2021-03-15|Asia|Korea'[&!color=#ff9900]:0.001256,'EPIISL6781398|A|mallard/South_Korea/34X-2/2021|H7N7|2021-01-27|Asia|Korea'[&!color=#ff9900]:0.003851)[&label=100,!color=#ff9900]:0.001505,'EPIISL14835572|A|Mallard/South_Korea/KNU2021-49/2021|H7N7|2021-04-06|Asia|Korea'[&!color=#ff9900]:0.002281)[&label=99,!color=#ff9900]:0.001881)[&label=100,!color=#ff9900]:0.00458)[&label=100,!color=#ff9900]:0.01175)[&label=80,!color=#ff9900]:8.96E-4,'EPIISL483051|A|mallard/Korea/H884-2/2017|H10N7|2017-02-08|Asia|Korea'[&!color=#ff9900]:0.005027)[&label=80,!color=#ff9900]:6.71E-4)[&label=24,!color=#ff9900]:2.0E-6)[&label=100,!color=#ff9900]:0.007711,'EPIISL387963|A|teal/Egypt/MB-D-148OP/2015|H10N7|2015-01-27|Africa|Egypt'[&!color=#ff9900]:0.009153)[&label=100,!color=#ff9900]:0.00451)[&label=100,!color=#ff9900]:6.97E-4,(('EPIISL504326|A|duck/Okayama/331111/2014|H10N7|2014-11-11|Asia|Japan'[&!color=#ff9900]:0.003794,'EPIISL237178|A|duck/Gunma/100213/2015|H7N7|2015-02|Asia|Japan'[&!color=#ff9900]:0.007069)[&label=100,!color=#ff9900]:0.003224,('EPIISL237175|A|duck/Shimane/32-20/2014|H7N7|2014-11|Asia|Japan'[&!color=#ff9900]:0.005161,(('EPIISL483045|A|mallard/Korea/WA593/2014|H10N7|2014-11-20|Asia|Korea'[&!color=#ff9900]:0.001257,'EPIISL483047|A|wild_bird/Korea/H2542/2015|H10N7|2015-04-06|Asia|Korea'[&!color=#ff9900]:6.28E-4)[&label=95,!color=#ff9900]:1.0E-6,('EPIISL206695|A|duck/Mongolia/626/2015|H10N7|2015-08-31|Asia|Mongolia'[&!color=#ff9900]:6.19E-4,'EPIISL483050|A|mallard/Korea/WB596/2015|H10N7|2015-12-15|Asia|Korea'[&!color=#ff9900]:0.007049)[&label=100,!color=#ff9900]:0.001268)[&label=100,!color=#ff9900]:0.004534)[&label=100,!color=#ff9900]:0.002479)[&label=100,!color=#ff9900]:0.005073)[&label=99,!color=#ff9900]:8.33E-4)[&label=100,!color=#ff9900]:0.006681)[&label=98,!color=#ff9900]:0.002325,(('EPIISL189719|A|mallard/Republic_of_Georgia/1/2010|H10N7|2010-01-29|Asia|Georgia'[&!color=#ff9900]:0.004277,('EPIISL200933|A|ostrich/South_Africa/STV/2013|H7N7|2013-04-01|Africa|S_Africa'[&!color=#ff9900]:6.24E-4,'EPIISL200924|A|ostrich/South_Africa/KRB/2013|H7N7|2013-04-01|Africa|S_Africa'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.017447)[&label=100,!color=#ff9900]:0.001772,('EPIISL243574|A|mallard_duck/Netherlands/2/2011|H10N7|2011-03-08|Europe|Netherlands'[&!color=#ff9900]:6.24E-4,('EPIISL243500|A|mallard_duck/Netherlands/47/2010|H10N7|2010-11-26|Europe|Netherlands'[&!color=#ff9900]:1.0E-6,'EPIISL328996|A|mallard_duck/Netherlands/50/2010|H10N7|2010-12-03|Europe|Netherlands'[&!color=#ff9900]:0.00125)[&label=92,!color=#ff9900]:3.0E-6)[&label=100,!color=#ff9900]:0.00733)[&label=98,!color=#ff9900]:0.001164)[&label=100,!color=#ff9900]:0.014024,((((('EPIISL70550|A|mallard/Korea/GH171/2007|H7N7|2007-12|Asia|Korea'[&!color=#ff9900]:6.25E-4,'EPIISL70554|A|magpie/Korea/YJD174/2007|H7N7|2007-12|Asia|Korea'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.001254,((('EPIISL146376|A|goose/Guizhou/829/2012|H10N7|2012|Asia|China'[&!color=#ff9900]:0.010313,'EPIISL201385|A|lesser_white-fronted_goose/HuNan/412-3Y/2010|H7N7|2010-10|Asia|China'[&!color=#ff9900]:5.88E-4)[&label=100,!color=#ff9900]:0.003277,('EPIISL146396|A|chicken/Jiangxi/2369/2010|H7N7|2010|Asia|China'[&!color=#ff9900]:0.00316,'EPIISL146391|A|duck/Jiangxi/21669/2009|H7N7|2009|Asia|China'[&!color=#ff9900]:6.28E-4)[&label=100,!color=#ff9900]:0.005806)[&label=100,!color=#ff9900]:0.006471,'EPIISL4072373|A|aquatic_bird/South_Korea/346/2009|H5N7|2009-02-13|Asia|Korea'[&!color=#ff9900]:0.005754)[&label=100,!color=#ff9900]:0.001245)[&label=100,!color=#ff9900]:0.001895,'EPIISL30784|A|duck/Tsukuba/664/2007|H7N7|2007|Asia|Japan'[&!color=#ff9900]:0.00253)[&label=100,!color=#ff9900]:7.18E-4,((('EPIISL238023|A|duck/Tsukuba/30/07|H7N7|2007|Asia|Japan'[&!color=#ff9900]:2.0E-6,'EPIISL30785|A|duck/Tsukuba/922/2008|H7N7|2008|Asia|Japan'[&!color=#ff9900]:0.001256)[&label=100,!color=#ff9900]:6.27E-4,'EPIISL63106|A|northern_pintail/Akita/1367/2008|H7N7|2008|Asia|Japan'[&!color=#ff9900]:0.001257)[&label=82,!color=#ff9900]:3.0E-6,'EPIISL63114|A|northern_pintail/Miyagi/674/2008|H7N7|2008|Asia|Japan'[&!color=#ff9900]:0.001256)[&label=100,!color=#ff9900]:0.006278)[&label=98,!color=#ff9900]:0.001824,'EPIISL146380|A|duck/Fujian/5728/2008|H7N7|2008|Asia|China'[&!color=#ff9900]:0.008531)[&label=100,!color=#ff9900]:0.009584)[&label=100,!color=#ff9900]:0.006455,((('EPIISL181994|A|duck/Jiangxi/1410/2008|H10N7|2008-01-28|Asia|China'[&!color=#ff9900]:0.001358,((('EPIISL175785|A|duck/Huzhou/4268/2013|H7N7|2013-10-24|Asia|China'[&!color=#ff9900]:3.0E-6,('EPIISL235200|A|duck/Jiangxi/S4770/2013|H7N7|2013-11-19|Asia|China'[&!color=#ff9900]:0.005723,('EPIISL195974|A|chicken/Zhejiang/2CP8/2014|H10N7|2014-03|Asia|China'[&!color=#ff9900]:0.001888,'EPIISL195975|A|chicken/Zhejiang/2C66/2014|H10N7|2014-03|Asia|China'[&!color=#ff9900]:0.004435)[&label=82,!color=#ff9900]:2.0E-6)[&label=97,!color=#ff9900]:0.001257)[&label=100,!color=#ff9900]:0.011811,'EPIISL235201|A|duck/Zhejiang/S3158/2012|H7N7|2012-10-19|Asia|China'[&!color=#ff9900]:0.014335)[&label=100,!color=#ff9900]:5.81E-4,'EPIISL146377|A|goose/Guangdong/7472/2012|H7N7|2012|Asia|China'[&!color=#ff9900]:0.017259)[&label=100,!color=#ff9900]:0.008757)[&label=100,!color=#ff9900]:0.006339,('EPIISL146401|A|duck/Jiangxi/21980/2010|H7N7|2010|Asia|China'[&!color=#ff9900]:0.002504,'EPIISL146400|A|duck/Jiangxi/16769/2010|H7N7|2010|Asia|China'[&!color=#ff9900]:6.55E-4)[&label=100,!color=#ff9900]:0.021226)[&label=100,!color=#ff9900]:0.010947,('EPIISL30674|A|duck/Shimane/18/2006|H7N7|2006|Asia|Japan'[&!color=#ff9900]:0.011234,(('EPIISL370381|A|Calidris_ruficollis/Hokkaido/12EY0172/2012|H4N7|2012-09-13|Asia|Japan'[&!color=#ff9900]:0.012372,(('EPIISL129742|A|Chicken/Queensland/3/2012|H10N7|2012|Oceania|Australia'[&!color=#ff9900]:6.27E-4,('EPIISL129741|A|Chicken/Queensland/2/2012|H10N7|2012|Oceania|Australia'[&!color=#ff9900]:1.0E-6,'EPIISL129740|A|Chicken/Queensland/1/2012|H10N7|2012|Oceania|Australia'[&!color=#ff9900]:1.0E-6)[&label=95,!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.009041,'EPIISL144756|A|Wild_Bird/NSW/6526/2011|H10N7|2011|Oceania|Australia'[&!color=#ff9900]:0.002511)[&label=100,!color=#ff9900]:6.09E-4)[&label=100,!color=#ff9900]:0.008863,'EPIISL129739|A|Chicken/NSW-Sydney/D809/2010|H10N7|2010|Oceania|Australia'[&!color=#ff9900]:0.008268)[&label=100,!color=#ff9900]:0.033385)[&label=100,!color=#ff9900]:0.003237)[&label=100,!color=#ff9900]:0.006403)[&label=98,!color=#ff9900]:0.003594)[&label=95,!color=#ff9900]:0.001315,((('EPIISL141040|A|duck/Fukui/1/2004|H7N7|2004-12-01|Asia|Japan'[&!color=#ff9900]:2.0E-6,'EPIISL3707554|A|duck/Fukui/2/2004|H7N7|2004-12-01|Asia|Japan'[&!color=#ff9900]:6.25E-4)[&label=100,!color=#ff9900]:6.25E-4,'EPIISL368627|A|duck/Hokkaido/W34/2004|H7N7|2004-10-07|Asia|Japan'[&!color=#ff9900]:3.0E-6)[&label=100,!color=#ff9900]:0.003868,(('EPIISL146339|A|duck/Jiangxi/1748/2003|H7N7|2003|Asia|China'[&!color=#ff9900]:6.29E-4,'EPIISL13573|A|duck/Jiangxi/1742/03|H7N7|2003|Asia|China'[&!color=#ff9900]:2.0E-6)[&label=100,!color=#ff9900]:6.28E-4,'EPIISL146340|A|duck/Jiangxi/1775/2003|H7N7|2003|Asia|China'[&!color=#ff9900]:6.3E-4)[&label=100,!color=#ff9900]:0.002484)[&label=100,!color=#ff9900]:0.011094)[&label=97,!color=#ff9900]:5.28E-4,(((((('EPIISL31483|A|mute_swan/Hungary/5973/2007|H7N7|2007|Europe|Hungary'[&!color=#ff9900]:0.003199,(((((('EPIISL243382|A|mallard_duck/Netherlands/67/2008|H10N7|2008-12-13|Europe|Netherlands'[&!color=#ff9900]:0.005104,(((('EPIISL202998|A|chicken/Italy/13VIR4541-8/2013|H7N7|2013-08-13|Europe|Italy'[&!color=#ff9900]:2.0E-6,'EPIISL203004|A|chicken/Italy/13VIR5091/2013|H7N7|2013-09-02|Europe|Italy'[&!color=#ff9900]:6.24E-4)[&label=100,!color=#ff9900]:0.005686,'EPIISL399589|A|Anas_platyrhynchos/Belgium/23852/2012|H7N7|2012-11-16|Europe|Belgium'[&!color=#ff9900]:0.002506)[&label=88,!color=#ff9900]:2.0E-6,'EPIISL309810|A|Chicken/Netherlands/12014794/2012|H7N7|2012-08-09|Europe|Netherlands'[&!color=#ff9900]:0.002504)[&label=100,!color=#ff9900]:0.011462,('EPIISL399590|A|Anas_platyrhynchos/Belgium/25576/2012|H7N7|2012-12-17|Europe|Belgium'[&!color=#ff9900]:0.008223,(('EPIISL309929|A|Chicken/Netherlands/11008327/2011|H7N7|2011-05-12|Europe|Netherlands'[&!color=#ff9900]:0.001885,('EPIISL309808|A|Chicken/Netherlands/11011392/2011|H7N7|2011-06-23|Europe|Netherlands'[&!color=#ff9900]:1.0E-6,'EPIISL309823|A|Turkey/Netherlands/11011530/2011|H7N7|2011-06-25|Europe|Netherlands'[&!color=#ff9900]:0.001249)[&label=100,!color=#ff9900]:0.001881)[&label=100,!color=#ff9900]:0.003183,'EPIISL243586|A|mallard_duck/Netherlands/1/2011|H7N7|2011-02-23|Europe|Netherlands'[&!color=#ff9900]:0.005655)[&label=99,!color=#ff9900]:6.52E-4)[&label=100,!color=#ff9900]:6.76E-4)[&label=100,!color=#ff9900]:0.005934)[&label=96,!color=#ff9900]:0.001147,('EPIISL309816|A|Chicken/Netherlands/14003005/2014|H2N7|2014-03-05|Europe|Netherlands'[&!color=#ff9900]:0.01437,'EPIISL267180|A|mallard_duck/Netherlands/21/2010|H10N7|2010-09-07|Europe|Netherlands'[&!color=#ff9900]:0.001781)[&label=100,!color=#ff9900]:0.006515)[&label=54,!color=#ff9900]:6.35E-4,'EPIISL329027|A|mallard_duck/Netherlands/6/2009|H7N7|2009-02-02|Europe|Netherlands'[&!color=#ff9900]:0.004339)[&label=55,!color=#ff9900]:5.4E-5,(((((('EPIISL181612|A|migratory_duck/Jiangxi/33038/2013|H10N7|2013-12-15|Asia|China'[&!color=#ff9900]:0.001929,'EPIISL235196|A|chicken/Jiangxi/C25/2014|H7N7|2014-02|Asia|China'[&!color=#ff9900]:0.001212)[&label=100,!color=#ff9900]:0.011726,'EPIISL378307|A|mallard/Beijing/27/2011|H10N7|2011-10-06|Asia|China'[&!color=#ff9900]:0.002551)[&label=100,!color=#ff9900]:0.004438,((('EPIISL146367|A|wild_waterfowl/Hong_Kong/MPL705/2011|H7N7|2011|Asia|China'[&!color=#ff9900]:6.22E-4,'EPIISL146366|A|common_teal/Hong_Kong/MPM1740/2011|H7N7|2011|Asia|China'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:6.23E-4,'EPIISL146306|A|wild_waterfowl/Hong_Kong/MPM2121/2011|H7N7|2011|Asia|China'[&!color=#ff9900]:0.001252)[&label=100,!color=#ff9900]:6.26E-4,'EPIISL146307|A|wild_waterfowl/Hong_Kong/MPL1006/2011|H7N7|2011|Asia|China'[&!color=#ff9900]:6.24E-4)[&label=100,!color=#ff9900]:0.002541)[&label=100,!color=#ff9900]:0.003824,((('EPIISL309178|A|chicken/Bangladesh/842/2009|H10N7|2009-01-11|Asia|Bangladesh'[&!color=#ff9900]:0.0,'EPIISL309175|A|duck/Bangladesh/824/2009|H10N7|2009-01-11|Asia|Bangladesh'[&!color=#ff9900]:0.0)[&!color=#ff9900]:1.0E-6,'EPIISL309179|A|duck/Bangladesh/821/2009|H10N7|2009-01-11|Asia|Bangladesh'[&!color=#ff9900]:2.0E-6)[&label=100,!color=#ff9900]:0.001252,'EPIISL182004|A|duck/Jiangxi/26182/2009|H10N7|2009-12-27|Asia|China'[&!color=#ff9900]:0.006451)[&label=100,!color=#ff9900]:5.94E-4)[&label=100,!color=#ff9900]:0.001877,'EPIISL189718|A|mallard/Republic_of_Georgia/2/2010|H7N7|2010-02-03|Asia|Georgia'[&!color=#ff9900]:0.008927)[&label=99,!color=#ff9900]:0.00192,(('EPIISL309822|A|Turkey/Netherlands/09006938/2009|H10N7|2009-04-14|Europe|Netherlands'[&!color=#ff9900]:1.0E-6,'EPIISL309839|A|Chicken/Netherlands/09007064/2009|H10N7|2009-04-17|Europe|Netherlands'[&!color=#ff9900]:6.49E-4)[&label=80,!color=#ff9900]:3.0E-6,'EPIISL309838|A|Chicken/Netherlands/09006943/2009|H10N7|2009-04-15|Europe|Netherlands'[&!color=#ff9900]:6.48E-4)[&label=100,!color=#ff9900]:0.001305)[&label=90,!color=#ff9900]:2.0E-6)[&label=92,!color=#ff9900]:7.08E-4,(('EPIISL224260|A|turkey/Germany/R534/2013|H7N7|2013|Europe|Germany'[&!color=#ff9900]:0.012951,'EPIISL243534|A|mallard_duck/Netherlands/1/2012|H10N7|2012-01-14|Europe|Netherlands'[&!color=#ff9900]:0.001851)[&label=100,!color=#ff9900]:0.007064,'EPIISL216877|A|mallard/Novomyhalivka/10-23-12/2010|H7N7|2010-12-23|Europe|Ukraine'[&!color=#ff9900]:0.011124)[&label=95,!color=#ff9900]:0.00182)[&label=100,!color=#ff9900]:0.00516,('EPIISL189715|A|black-headed_gull/Republic_of_Georgia/8/2012|H2N7|2012-01-02|Asia|Georgia'[&!color=#ff9900]:0.012298,('EPIISL216879|A|mallard/Askania-Nova/39-15-02/2011|H7N7|2011-02-15|Europe|Ukraine'[&!color=#ff9900]:6.25E-4,'EPIISL216878|A|mallard/Nizhnegorsk/3-06-10/2010|H7N7|2010-10-06|Europe|Ukraine'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.003968)[&label=100,!color=#ff9900]:0.009717)[&label=100,!color=#ff9900]:0.005278)[&label=99,!color=#ff9900]:4.01E-4,('EPIISL189367|A|mallard/Sweden/59463/2007|H10N7|2007-08-27|Europe|Sweden'[&!color=#ff9900]:2.0E-6,'EPIISL243649|A|mallard_duck/Netherlands/2/2008|H10N7|2008-01-07|Europe|Netherlands'[&!color=#ff9900]:0.00125)[&label=100,!color=#ff9900]:0.005862)[&label=100,!color=#ff9900]:0.00723,('EPIISL120203|A|teal/Egypt/01207-NAMRU3/2007|H10N7|2007-01-19|Africa|Egypt'[&!color=#ff9900]:0.004566,'EPIISL74023|A|Pekin_duck/South_Africa/AI1642/2009|H10N7|2009-02-27|Africa|S_Africa'[&!color=#ff9900]:0.033827)[&label=100,!color=#ff9900]:0.006237)[&label=100,!color=#ff9900]:0.001298,'EPIISL26339|A|mallard/Poland/01/08|H7N7|2007-12-28|Europe|Poland'[&!color=#ff9900]:0.013077)[&label=100,!color=#ff9900]:0.001346,('EPIISL120192|A|shoveler/Egypt/09781-NAMRU3/2004|H10N7|2004-12-18|Africa|Egypt'[&!color=#ff9900]:6.26E-4,'EPIISL120189|A|shoveler/Egypt/09782-NAMRU3/2004|H10N7|2004-12-18|Africa|Egypt'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.005111)[&label=100,!color=#ff9900]:0.001147,('EPIISL16391|A|Anser_anser/Germany/R752/06|H7N7|2006|Europe|Germany'[&!color=#ff9900]:0.008032,('EPIISL10383|A|mallard/Bavaria/3/2006|H10N7|2006|Europe|Germany'[&!color=#ff9900]:1.0E-6,('EPIISL120199|A|Egyptian_goose/Egypt/05588-NAMRU3/2006|H7N7|2006-04-07|Africa|Egypt'[&!color=#ff9900]:2.0E-6,'EPIISL29437|A|goose/Egypt/905588/2006|H7N7|2006|Africa|Egypt'[&!color=#ff9900]:0.007802)[&label=100,!color=#ff9900]:0.001884)[&label=100,!color=#ff9900]:0.003061)[&label=100,!color=#ff9900]:0.003894)[&label=100,!color=#ff9900]:0.010524)[&label=100,!color=#ff9900]:0.00253)[&label=100,!color=#ff9900]:4.55E-4,(('EPIISL83993|A|chicken/Netherlands/03007782/03|H7N7|2003-03-13|Europe|Netherlands'[&!color=#ff9900]:6.89E-4,('EPIISL84029|A|chicken/Netherlands/03012012/03|H7N7|2003-04-13|Europe|Netherlands'[&!color=#ff9900]:1.0E-6,'EPIISL84030|A|chicken/Netherlands/03012010/03|H7N7|2003-04-13|Europe|Netherlands'[&!color=#ff9900]:6.59E-4)[&label=100,!color=#ff9900]:7.04E-4)[&label=100,!color=#ff9900]:0.007037,'EPIISL224261|A|turkey/Germany/R11/2001|H7N7|2001|Europe|Germany'[&!color=#ff9900]:0.003018)[&label=99,!color=#ff9900]:0.003601)[&label=100,!color=#ff9900]:0.008531,((('EPIISL138760|A|avian/Israel/218/2000|H10N7|2000-12|Asia|Israel'[&!color=#ff9900]:0.001254,'EPIISL138754|A|avian/Israel/297/2001|H10N7|2001-04|Asia|Israel'[&!color=#ff9900]:3.0E-6)[&label=99,!color=#ff9900]:6.26E-4,('EPIISL138752|A|avian/Israel/232/2001|H10N7|2001-02|Asia|Israel'[&!color=#ff9900]:6.27E-4,'EPIISL138751|A|avian/Israel/201/2001|H10N7|2001-02|Asia|Israel'[&!color=#ff9900]:1.0E-6)[&label=69,!color=#ff9900]:2.0E-6)[&label=100,!color=#ff9900]:0.001103,('EPIISL138757|A|avian/Israel/457/2001|H10N7|2001-09|Asia|Israel'[&!color=#ff9900]:0.001254,'EPIISL138756|A|avian/Israel/445/2001|H10N7|2001-09|Asia|Israel'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.004594)[&label=100,!color=#ff9900]:0.018573)[&label=99,!color=#ff9900]:8.57E-4,'EPIISL84558|A|mallard/Netherlands/02/2000|H10N7|2000|Europe|Netherlands'[&!color=#ff9900]:0.014206)[&label=94,!color=#ff9900]:0.001983,('EPIISL189457|A|mallard/Sweden/1689/2002|H7N7|2002-12-15|Europe|Sweden'[&!color=#ff9900]:0.003095,('EPIISL189551|A|mallard/Sweden/1682/2002|H7N7|2002-12-15|Europe|Sweden'[&!color=#ff9900]:6.29E-4,'EPIISL150026|A|mallard/Sweden/102/2002|H7N7|2002-12-15|Europe|Sweden'[&!color=#ff9900]:1.0E-6)[&label=100,!color=#ff9900]:0.004568)[&label=100,!color=#ff9900]:0.02085)[&label=87,!color=#ff9900]:0.003393,(('EPIISL26368|A|Mallard/Sweden/S90597/2005|H7N7|2005|Europe|Sweden'[&!color=#ff9900]:0.013991,(((('EPIISL243388|A|mallard_duck/Netherlands/1/2007|H10N7|2007-03-26|Europe|Netherlands'[&!color=#ff9900]:0.001712,'EPIISL86042|A|turkey/Germany-NW/R655/2009|H7N7|2009|Europe|Germany'[&!color=#ff9900]:0.010682)[&label=100,!color=#ff9900]:6.67E-4,'EPIISL212461|A|chicken/England/11416/2008|H7N7|2008-06-02|Europe|UK'[&!color=#ff9900]:0.009154)[&label=100,!color=#ff9900]:0.007661,'EPIISL29443|A|teal/Egypt/912908/2005|H10N7|2005|Africa|Egypt'[&!color=#ff9900]:0.007539)[&label=100,!color=#ff9900]:0.009776,'EPIISL189325|A|mallard/Sweden/124987/2010|H7N7|2010-11-10|Europe|Sweden'[&!color=#ff9900]:0.00226)[&label=100,!color=#ff9900]:0.010229)[&label=100,!color=#ff9900]:0.013447,('EPIISL381|A|duck/Taiwan/4201/99|H7N7|1999|Asia|Taiwan'[&!color=#ff9900]:0.01139,'EPIISL631|A|duck/Shimane/45/1997|H10N7|1997|Asia|Japan'[&!color=#ff9900]:0.00202)[&label=100,!color=#ff9900]:0.009785)[&label=98,!color=#ff9900]:0.00125)[&label=92,!color=#ff9900]:0.006459,('EPIISL218645|A|duck/Vietnam/NCVD-0035/2012|H10N7|2012-12-04|Asia|Vietnam'[&!color=#ff9900]:0.041392,('EPIISL371849|A|duck/Viet_Nam/HU10-64/2018|H7N7|2018-08-23|Asia|Vietnam'[&!color=#ff9900]:0.001361,'EPIISL371848|A|duck/Viet_Nam/HU10-48/2018|H7N7|2018-08-23|Asia|Vietnam'[&!color=#ff9900]:0.001197)[&label=100,!color=#ff9900]:0.063752)[&label=100,!color=#ff9900]:0.069355)[&label=96,!color=#ff9900]:0.002132)[&label=99,!color=#ff9900]:0.052339,(('EPIISL170786|A|turkey/England/647/1977|H7N7|1977|Europe|UK'[&!color=#ff9900]:0.003265,'EPIISL5877|A|goose/Leipzig/187-7/1979|H7N7|1979|Europe|Germany'[&!color=#ff9900]:0.010293)[&label=100,!color=#ff9900]:0.010186,('EPIISL87539|A|duck/Potsdam/15/1980|H7N7|1980|Europe|Germany'[&!color=#ff9900]:0.001851,'EPIISL4071017|A|Duck/Germany/62-4/1981|H7N7|1981-01-01|Europe|Germany'[&!color=#ff9900]:0.007778)[&label=100,!color=#ff9900]:0.006068)[&label=76,!color=#ff9900]:0.00421)[&label=99,!color=#ff9900]:0.03566,('EPIISL31665|A|macaw/Italy/626/1980|H7N7|1980|Europe|Italy'[&!color=#ff9900]:0.054647,(('EPIISL73978|A|duck/Victoria/1976|H7N7|1976|Oceania|Australia'[&!color=#ff9900]:4.67E-4,'EPIISL69866|A|chicken/Victoria/1976|H7N7|1976-01|Oceania|Australia'[&!color=#ff9900]:0.002683)[&label=100,!color=#ff9900]:0.029552,('EPIISL68979|A|starling/Victoria/1985|H7N7|1985|Oceania|Australia'[&!color=#ff9900]:0.019304,'EPIISL238016|A|whistling_swan/Shimane/42/80|H7N7|1980|Asia|Japan'[&!color=#ff9900]:0.002518)[&label=100,!color=#ff9900]:0.057393)[&label=99,!color=#ff9900]:0.034175)[&label=88,!color=#ff9900]:0.008663)[&label=98,!color=#ff9900]:0.120708)[&label=100,!color=#990099]:0.325362)[&label=100,!color=#990099]:0.037267)[&label=100,!color=#990099]:0.011842)[&label=99,!color=#990099]:6.69E-4,'EPIISL69253|A|Cor/16/1974|H7N7|1974|N_America|USA'[&!color=#990099]:6.67E-4)[&label=100,!color=#990099]:0.001923,('EPIISL69905|A|Santiago/77|H7N7|1977|S_America|Chile'[&!color=#990099]:0.001939,(('EPIISL27621|A|equine/Argentina/1/1977|H7N7|1977|S_America|Argentina'[&!color=#990099]:0.001291,'EPIISL27620|A|equine/Uruguay/1063/1976|H7N7|1976|S_America|Uruguay'[&!color=#990099]:6.44E-4)[&label=33,!color=#990099]:3.0E-6,'EPIISL27619|A|equine/Sao_Paulo/4/1976|H7N7|1976|S_America|Brazil'[&!color=#990099]:1.0E-6)[&label=42,!color=#990099]:3.0E-6)[&label=99,!color=#990099]:6.41E-4)[&label=100,!color=#990099]:0.001301,'EPIISL27618|A|equine/Kentucky/1a/1975|H7N7|1975|N_America|USA'[&!color=#990099]:2.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.25;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=4272;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

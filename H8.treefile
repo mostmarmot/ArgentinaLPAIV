@@ -1,0 +1,307 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=205;
+	taxlabels
+	'Agustina|Avian|A/yellow-billed_teal/Argentina/CIP112-3749|H8N4|2019-07-24|S_America|Argentina'
+	'EPIISL106124|Avian|A/duck/Tsukuba/255/2005_H8N5_|H8N5|2005-01-01|Asia|Japan'
+	'EPIISL120214|Avian|A/garganey/Ukraine/05835-NAMRU3/2006|H8N4|2006-08-13|Europe|Ukraine'
+	'EPIISL131744|Avian|A/American_black_duck/Nova_Scotia/02043/2007|H8N4|2007-08-08|N_America|Canada'
+	'EPIISL132816|Avian|A/northern_shoveler/Interior_Alaska/9BM1447R2/2009|H8N4|2009-06-20|N_America|USA'
+	'EPIISL133748|Avian|A/mallard/Interior_Alaska/9BM2351R0/2009|H8N4|2009-07-12|N_America|USA'
+	'EPIISL133750|Avian|A/mallard/Interior_Alaska/9BM2705R0/2009|H8N4|2009-07-15|N_America|USA'
+	'EPIISL135117|Avian|A/northern_shoveler/California/3676/2010|H8N2|2010-12-15|N_America|USA'
+	'EPIISL137488|Avian|A/northern_shoveler/Interior_Alaska/9BM2925R0/2009|H8N4|2009-07-16|N_America|USA'
+	'EPIISL137510|Avian|A/northern_shoveler/Interior_Alaska/9BM4787R0/2009|H8N4|2009-07-29|N_America|USA'
+	'EPIISL137515|Avian|A/American_green-winged_teal/Interior_Alaska/9BM5045R0/2009|H8N4|2009-07-29|N_America|USA'
+	'EPIISL137988|Avian|A/mallard/Interior_Alaska/9BM10537R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL137994|Avian|A/northern_pintail/Interior_Alaska/9BM8109R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL138020|Avian|A/northern_pintail/Interior_Alaska/9BM8967R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL139431|Avian|A/northern_pintail/Alaska/44500-066/2009|H8N4|2009-08-13|N_America|USA'
+	'EPIISL141096|Avian|A/northern_shoveler/Minnesota/Sg-00648/2008|H8N4|2008-08-01|N_America|USA'
+	'EPIISL141100|Avian|A/mallard/Minnesota/Sg-00682/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL141103|Avian|A/mallard/Minnesota/Sg-00701/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL141136|Avian|A/mallard/Minnesota/SG-00684/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL141137|Avian|A/mallard/Minnesota/Sg-00686/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL141198|Avian|A/mallard/Minnesota/AI09-1833/2009|H8N4|2009-07-28|N_America|USA'
+	'EPIISL141199|Avian|A/mallard/Minnesota/AI09-1854/2009|H8N4|2009-07-28|N_America|USA'
+	'EPIISL141200|Avian|A/mallard/Minnesota/AI09-1867/2009|H8N4|2009-07-28|N_America|USA'
+	'EPIISL141330|Avian|A/mallard/Minnesota/Sg-00570/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL141649|Avian|A/northern_pintail/Interior_Alaska/9BM6510R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141651|Avian|A/northern_pintail/Interior_Alaska/9BM7152R2/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141653|Avian|A/mallard/Interior_Alaska/9BM7162R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141654|Avian|A/mallard/Interior_Alaska/9BM7216R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141658|Avian|A/mallard/Interior_Alaska/9BM11023R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141659|Avian|A/northern_pintail/Interior_Alaska/9BM7240R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141737|Avian|A/mallard/Interior_Alaska/9BM11053R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141739|Avian|A/northern_pintail/Interior_Alaska/9BM11556R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141742|Avian|A/northern_pintail/Interior_Alaska/9BM11643R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141744|Avian|A/northern_pintail/Interior_Alaska/9BM11917R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141752|Avian|A/northern_pintail/Interior_Alaska/9BM7882R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141754|Avian|A/northern_pintail/Interior_Alaska/9BM8237R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141755|Avian|A/mallard/Interior_Alaska/9BM8389R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141760|Avian|A/northern_pintail/Interior_Alaska/9BM12068R0/2009|H8N4|2009-01-01|N_America|USA'
+	'EPIISL141811|Avian|A/northern_pintail/Interior_Alaska/10BM12413R0/2010|H8N4|2010-01-01|N_America|USA'
+	'EPIISL14390387|Avian|A/Anas_platyrhynchos/Belgium/2213_0006/2021|H8N4|2021-08-20|Europe|Belgium'
+	'EPIISL144312|Avian|A/mallard/Sweden/100546/2009|H8N4|2009-10-22|Europe|Sweden'
+	'EPIISL14767431|Avian|A/northern_pintail/Alaska/UGAI17-5359/2017|H8N4|2017-09-25|N_America|USA'
+	'EPIISL14768160|Avian|A/grey_teal/Tasmania/14-0911-1/2014|H8N4|2014-04-01|Oceania|Australia'
+	'EPIISL14768177|Avian|A/wild_waterfowl/Queensland/P16-01466-5/2016|H8N4|2016-04-01|Oceania|Australia'
+	'EPIISL14769889|Avian|A/wild_waterfowl/South_Australia/15-5425150-15/2015|H8N4|2015-06-04|Oceania|Australia'
+	'EPIISL14835566|Avian|A/Mallard_Anas_platyrhynchos_/South_Korea/KNU2021-23/2021|H8N4|2021-02-17|Asia|Korea'
+	'EPIISL14835567|Avian|A/Common_Teal_Anas_crecca_/South_Korea/KNU2021-22/2021|H8N4|2021-02-17|Asia|Korea'
+	'EPIISL14835575|Avian|A/Mallard_Anas_platyrhynchos_/South_Korea/KNU2021-52/2021|H8N4|2021-09-06|Asia|Korea'
+	'EPIISL158504|Avian|A/northern_shoveler/Mississippi/11OS5900/2011|H8N1|2011-12-08|N_America|USA'
+	'EPIISL161002|Avian|A/ruddy_shelduck/Mongolia/593/2010|H8N4|2010-06-22|Asia|Mongolia'
+	'EPIISL16215439|Avian|A/Mallard/Alberta/67/2021|H8N4|2021-08-26|N_America|Canada'
+	'EPIISL16215560|Avian|A/Mallard/Alberta/189/2021|H8N4|2021-08-26|N_America|Canada'
+	'EPIISL1798|Avian|A/pintail_duck/Alberta/114/1979|H8N4|1979-08-07|N_America|Canada'
+	'EPIISL180950|Avian|A/American_black_duck/Maryland/08OS1725/2008|H8N4|2008-11-25|N_America|USA'
+	'EPIISL189315|Avian|A/mallard/Sweden/2834/2003|H8N4|2003-05-27|Europe|Sweden'
+	'EPIISL189322|Avian|A/mallard/Sweden/60041/2007|H8N2|2007-10-13|Europe|Sweden'
+	'EPIISL189324|Avian|A/mallard/Sweden/3244/2003|H8N4|2003-09-02|Europe|Sweden'
+	'EPIISL189326|Avian|A/mallard/Sweden/2990/2003|H8N4|2003-06-12|Europe|Sweden'
+	'EPIISL189327|Avian|A/mallard/Sweden/3240/2003|H8N4|2003-09-02|Europe|Sweden'
+	'EPIISL189328|Avian|A/mallard/Sweden/4486/2004|H8N4|2004-07-23|Europe|Sweden'
+	'EPIISL189329|Avian|A/mallard/Sweden/5389/2005|H8N4|2005-09-20|Europe|Sweden'
+	'EPIISL189330|Avian|A/mallard/Sweden/7242/2004|H8N4|2004-11-25|Europe|Sweden'
+	'EPIISL189331|Avian|A/mallard/Sweden/7996/2005|H8N4|2005-09-08|Europe|Sweden'
+	'EPIISL189332|Avian|A/mallard/Sweden/8005/2005|H8N4|2005-09-11|Europe|Sweden'
+	'EPIISL189333|Avian|A/mallard/Sweden/50055/2006|H8N4|2006-06-07|Europe|Sweden'
+	'EPIISL189334|Avian|A/mallard/Sweden/51156/2006|H8N4|2006-10-12|Europe|Sweden'
+	'EPIISL189335|Avian|A/mallard/Sweden/58256/2006|H8N4|2006-11-03|Europe|Sweden'
+	'EPIISL189336|Avian|A/mallard/Sweden/59475/2007|H8N4|2007-08-29|Europe|Sweden'
+	'EPIISL189337|Avian|A/mallard/Sweden/59517/2007|H8N4|2007-09-01|Europe|Sweden'
+	'EPIISL189339|Avian|A/mallard/Sweden/99377/2009|H8N4|2009-09-03|Europe|Sweden'
+	'EPIISL189340|Avian|A/mallard/Sweden/101165/2009|H8N4|2009-11-05|Europe|Sweden'
+	'EPIISL189465|Avian|A/mallard/Sweden/541/2002|H8N4|2002-11-07|Europe|Sweden'
+	'EPIISL189466|Avian|A/mallard/Sweden/51671/2006|H8N4|2006-10-20|Europe|Sweden'
+	'EPIISL19980|Avian|A/mallard_duck/Minnesota/Sg-00062/2007|H8N4|2007-08-03|N_America|USA'
+	'EPIISL20130|Avian|A/pintail/Barrow/38/2005|H8N4|2005-01-01|N_America|USA'
+	'EPIISL20132|Avian|A/pintail/Barrow/140/2005|H8N4|2005-01-01|N_America|USA'
+	'EPIISL208093|Avian|A/mallard/Interior_Alaska/12ML00058/2012|H8N4|2012-09-20|N_America|USA'
+	'EPIISL208096|Avian|A/mallard/Interior_Alaska/12ML00076/2012|H8N4|2012-09-20|N_America|USA'
+	'EPIISL208099|Avian|A/mallard/Interior_Alaska/12ML00120/2012|H8N4|2012-09-20|N_America|USA'
+	'EPIISL23026|Avian|A/duck/Hokkaido/95/1981|H8N4|1981-01-01|Asia|Japan'
+	'EPIISL239392|Avian|A/duck/Aichi/231001/2016|H8N4|2016-10-18|Asia|Japan'
+	'EPIISL239394|Avian|A/duck/Aichi/231003/2016|H8N4|2016-10-18|Asia|Japan'
+	'EPIISL240681|Avian|A/mallard/Chany/126K-2/2014|H8N4|2014-09-11|Europe|Russia'
+	'EPIISL243549|Avian|A/mallard_duck/Netherlands/14/2006|H8N4|2006-07-24|Europe|Netherlands'
+	'EPIISL25479|Avian|A/northern_pintail/Alaska/44204-073/2006|H8N4|2006-10-02|N_America|USA'
+	'EPIISL25501|Avian|A/northern_shoveler/California/HKWF1325/2007|H8N4|2007-12-09|N_America|USA'
+	'EPIISL257181|Avian|A/chicken/Netherlands/11004004/2011|H8N4|2011-03-10|Europe|Netherlands'
+	'EPIISL257218|Avian|A/northern_pintail/Alaska/104/2011|H8N8|2011-09-17|N_America|USA'
+	'EPIISL257219|Avian|A/northern_pintail/Alaska/136/2011|H8N4|2011-09-17|N_America|USA'
+	'EPIISL257303|Avian|A/green-winged_teal/Alaska/UGAI15-6067/2015|H8N4|2015-09-06|N_America|USA'
+	'EPIISL261437|Avian|A/northern_shoveler/California/LDC185/2014|H8N4|2014-12-03|N_America|USA'
+	'EPIISL262476|Avian|A/duck/Chiba/17/2008|H8N4|2008-01-01|Asia|Japan'
+	'EPIISL262480|Avian|A/duck/Tsukuba/20/07|H8N4|2007-01-01|Asia|Japan'
+	'EPIISL262484|Avian|A/duck/Tsukuba/382/2010|H8N4|2010-01-01|Asia|Japan'
+	'EPIISL262486|Avian|A/duck/Niigata/813/07|H8N4|2007-01-01|Asia|Japan'
+	'EPIISL266500|Avian|A/northern_shoveler/California/HS206/2015|H8N4|2015-12-05|N_America|USA'
+	'EPIISL267263|Avian|A/mallard_duck/Netherlands/13/2006|H8N4|2006-07-24|Europe|Netherlands'
+	'EPIISL267765|Avian|A/mallard_duck/Netherlands/11/2006|H8N4|2006-07-24|Europe|Netherlands'
+	'EPIISL290235|Avian|A/duck/Mongolia/258/2011|H8N4|2011-09-03|Asia|Mongolia'
+	'EPIISL291186|Avian|A/Common_Teal/Netherlands/12002960/2012|H8N4|2012-02-12|Europe|Netherlands'
+	'EPIISL293508|Avian|A/duck/Hokkaido/95/2014|H8N4|2014-09-23|Asia|Japan'
+	'EPIISL293519|Avian|A/duck/Hokkaido/W285/2007|H8N4|2007-10-25|Asia|Japan'
+	'EPIISL294005|Avian|A/mallard_duck/Ohio/16OS0841/2016|H8N4|2016-08-02|N_America|USA'
+	'EPIISL294061|Avian|A/mallard_duck/Ohio/16OS0672/2016|H8N4|2016-07-22|N_America|USA'
+	'EPIISL294063|Avian|A/mallard_duck/Ohio/16OS0828/2016|H8N4|2016-07-29|N_America|USA'
+	'EPIISL298540|Avian|A/duck/Mongolia/565/2011|H8N4|2011-09-03|Asia|Mongolia'
+	'EPIISL30023|Avian|A/northern_shoveler/California/AKS273/2007|H8N4|2007-12-01|N_America|USA'
+	'EPIISL30028|Avian|A/northern_shoveler/California/HKWF1204/2007|H8N4|2007-12-05|N_America|USA'
+	'EPIISL301614|Avian|A/duck/Hokkaido/207/2014|H8N2|2014-10-28|Asia|Japan'
+	'EPIISL30795|Avian|A/common_teal/Netherlands/1/2005|H8N4|2005-01-01|Europe|Netherlands'
+	'EPIISL309800|Avian|A/Chicken/Netherlands/10009401/2010|H8N4|2010-06-04|Europe|Netherlands'
+	'EPIISL309804|Avian|A/Chicken/Netherlands/11004004/2011|H8N4|2011-03-09|Europe|Netherlands'
+	'EPIISL309806|Avian|A/Chicken/Netherlands/11008325/2011|H8N4|2011-05-10|Europe|Netherlands'
+	'EPIISL309837|Avian|A/Turkey/Netherlands/13001007/2013|H8N4|2013-01-18|Europe|Netherlands'
+	'EPIISL3242|Avian|A/mallard/Alberta/283/1977|H8N4|1977-08-06|N_America|Canada'
+	'EPIISL32601|Avian|A/Anas_crecca/Spain/1459/2008|H8N4|2008-01-26|Europe|Spain'
+	'EPIISL328341|Avian|A/mallard/Alberta/48/2017|H8N4|2017-08-12|N_America|Canada'
+	'EPIISL328937|Avian|A/northern_pintail/Alaska/UGAI16-3997/2016|H8N4|2016-09-06|N_America|USA'
+	'EPIISL328992|Avian|A/mallard_duck/Netherlands/7/2015|H8N4|2015-01-03|Europe|Netherlands'
+	'EPIISL337411|Avian|A/teal/Dagestan/57d/2018|H8N4|2018-09-15|Europe|Russia'
+	'EPIISL33854|Avian|A/mallard/Netherlands/1/2006|H8N4|2006-01-01|Europe|Netherlands'
+	'EPIISL368628|Avian|A/duck/Hokkaido/X9/2016|H8N4|2016-12-20|Asia|Japan'
+	'EPIISL369371|Avian|A/northern_shoveler/California/LDC762/2016|H8N4|2016-11-19|N_America|USA'
+	'EPIISL371804|Avian|A/ruddy_turnstone/Delaware_Bay/311/2009|H8N4|2009-05-20|N_America|USA'
+	'EPIISL378275|Avian|A/Northern_Shoveler/California/D1715961/2017|H8N4|2017-11-29|N_America|USA'
+	'EPIISL378303|Avian|A/Northern_Shoveler/California/D1614933/2016|H8N4|2016-11-22|N_America|USA'
+	'EPIISL379032|Avian|A/blue-winged_teal/Guatemala/CIP049-H118-81/2014|H8N4|2014-08-01|N_America|Guatemala'
+	'EPIISL379056|Avian|A/blue-winged_teal/Guatemala/CIP049-S_H118-64/2014|H8N4|2014-08-01|N_America|Guatemala'
+	'EPIISL379086|Avian|A/blue-winged_teal/Guatemala/CIP049-I_H118-64/2014|H8N4|2014-08-01|N_America|Guatemala'
+	'EPIISL381404|Avian|A/mallard/Alberta/532/2017|H8N4|2017-08-13|N_America|Canada'
+	'EPIISL393472|Avian|A/Mallard/Ohio/18OS1248/2018|H8N4|2018-04-11|N_America|USA'
+	'EPIISL397538|Avian|A/ruddy_turnstone/Delaware/AI10-1037/2010|H8N4|2010-05-21|N_America|USA'
+	'EPIISL397539|Avian|A/ruddy_turnstone/Delaware/AI10-1042/2010|H8N4|2010-05-25|N_America|USA'
+	'EPIISL397542|Avian|A/ruddy_turnstone/Delaware/AI10-1165/2010|H8N4|2010-05-26|N_America|USA'
+	'EPIISL397543|Avian|A/ruddy_turnstone/Delaware/AI10-1166/2010|H8N4|2010-05-26|N_America|USA'
+	'EPIISL4056561|Avian|A/Northern_Pintail/Alaska/19TL00068/2019|H8N4|2019-08-11|N_America|USA'
+	'EPIISL4071639|Avian|A/duck/Bangladesh/42981/2020|H8N4|2020-01-27|Asia|Bangladesh'
+	'EPIISL502344|Avian|A/green-winged_teal/Alaska/AK18-WB1-015A/2018|H8N4|2018-09-02|N_America|USA'
+	'EPIISL502674|Avian|A/mallard/Maine/ME-Y17-135/2017|H8N4|2017-08-25|N_America|USA'
+	'EPIISL502680|Avian|A/mallard/Maine/ME-Y17-176/2017|H8N4|2017-08-29|N_America|USA'
+	'EPIISL502682|Avian|A/mallard/Maine/ME-Y17-180/2017|H8N4|2017-08-29|N_America|USA'
+	'EPIISL502683|Avian|A/mallard/Maine/ME-Y17-181/2017|H8N4|2017-08-29|N_America|USA'
+	'EPIISL503489|Avian|A/duck/Bangladesh/38557/2019|H8N4|2019-02-08|Asia|Bangladesh'
+	'EPIISL503495|Avian|A/duck/Bangladesh/37473/2019|H8N4|2019-01-16|Asia|Bangladesh'
+	'EPIISL503500|Avian|A/mallard/Bangladesh/37909/2019|H8N4|2019-01-15|Asia|Bangladesh'
+	'EPIISL503502|Avian|A/duck/Bangladesh/37525/2019|H8N4|2019-01-17|Asia|Bangladesh'
+	'EPIISL503510|Avian|A/duck/Bangladesh/37509/2019|H8N4|2019-01-17|Asia|Bangladesh'
+	'EPIISL5795|Avian|A/mallard_duck/Alberta/7/1987|H8N4|1987-08-04|N_America|Canada'
+	'EPIISL63081|Avian|A/mallard/Minnesota/Sg-00675/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL63084|Avian|A/mallard/Minnesota/Sg-00678/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL63090|Avian|A/mallard/Minnesota/Sg-00684/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL63091|Avian|A/mallard/Minnesota/Sg-00685/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL63094|Avian|A/mallard/Minnesota/Sg-00688/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL63096|Avian|A/mallard/Minnesota/Sg-00690/2008|H8N4|2008-08-03|N_America|USA'
+	'EPIISL63575|Avian|A/northern_shoveler/California/HKWF1203/2007|H8N4|2007-12-05|N_America|USA'
+	'EPIISL6501|Avian|A/mallard/Alaska/708/2005|H8N4|2005-08-19|N_America|USA'
+	'EPIISL66198|Avian|A/duck/Thailand/SP-355/2007|H8N4|2007-01-01|Asia|Thailand'
+	'EPIISL67425|Avian|A/turkey/Colorado/235497/2003|H8N4|2003-01-01|N_America|USA'
+	'EPIISL6795362|Avian|A/mallard/Alaska/AH0176804/2021|H8N4|2021-07-30|N_America|USA'
+	'EPIISL6816049|Avian|A/mallard/Alaska/AH0176847/2021|H8N4|2021-08-02|N_America|USA'
+	'EPIISL68843|Avian|A/duck/Alaska/702/1991|H8N2|1991-08-01|N_America|USA'
+	'EPIISL68943|Avian|A/duck/LA/B174/1986|H8N4|1986-01-01|N_America|USA'
+	'EPIISL69994|Avian|A/turkey/Ontario/6118/1967|H8N4|1967-01-01|N_America|Canada'
+	'EPIISL70124|Avian|A/turkey/Ontario/6118/1968|H8N4|1968-01-01|N_America|Canada'
+	'EPIISL70147|Avian|A/turkey/Ontario/6118/68|H8N4|1968-01-02|N_America|Canada'
+	'EPIISL70148|Avian|A/Turkey/Ontario/6118/68|H8N4|1968-01-02|N_America|Canada'
+	'EPIISL71641|Avian|A/northern_pintail/Alaska/44340-503/2007|H8N4|2007-08-10|N_America|USA'
+	'EPIISL71675|Avian|A/northern_pintail/Alaska/44420-106/2008|H8N0|2008-08-06|N_America|USA'
+	'EPIISL73373|Avian|A/mallard/Sweden/24/2002|H8N4|2002-11-07|Europe|Sweden'
+	'EPIISL73390|Avian|A/mallard/Sweden/8/2003|H8N4|2003-05-27|Europe|Sweden'
+	'EPIISL75717|Avian|A/mallard/Minnesota/Sg-00062/2007|H8N4|2007-08-03|N_America|USA'
+	'EPIISL804055|Avian|A/mallard/Netherlands/06026212-002/2006|H8N4|2006-09-15|Europe|Netherlands'
+	'EPIISL814560|Avian|A/mallard/Netherlands/18003625-015/2018|H8N4|2018-03-07|Europe|Netherlands'
+	'EPIISL82518|Avian|A/American_green-winged_teal/California/44287-395/2007|H8N3|2007-01-27|N_America|USA'
+	'EPIISL83508|Avian|A/American_green-winged_teal/California/44287-373/2007|H8N4|2007-01-27|N_America|USA'
+	'EPIISL84572|Avian|A/northern_shoveler/Netherlands/1/2006|H8N4|2006-01-01|Europe|Netherlands'
+	'EPIISL85127|Avian|A/northern_pintail/Interior_Alaska/8MP0689/2008|H8N4|2008-08-13|N_America|USA'
+	'EPIISL85131|Avian|A/northern_pintail/Interior_Alaska/8BM2987/2008|H8N4|2008-08-17|N_America|USA'
+	'EPIISL85132|Avian|A/northern_pintail/Interior_Alaska/8BM3041/2008|H8N4|2008-08-17|N_America|USA'
+	'EPIISL85133|Avian|A/mallard/Interior_Alaska/8BM3061/2008|H8N4|2008-08-18|N_America|USA'
+	'EPIISL85134|Avian|A/northern_pintail/Interior_Alaska/8BM3088/2008|H8N4|2008-08-18|N_America|USA'
+	'EPIISL85167|Avian|A/mallard/Interior_Alaska/8MP0547/2008|H8N4|2008-08-11|N_America|USA'
+	'EPIISL85168|Avian|A/northern_pintail/Interior_Alaska/8BM2046R1/2008|H8N4|2008-08-09|N_America|USA'
+	'EPIISL85211|Avian|A/northern_pintail/Interior_Alaska/8BM2621R1/2008|H8N4|2008-08-14|N_America|USA'
+	'EPIISL85212|Avian|A/northern_pintail/Interior_Alaska/8BM3091/2008|H8N4|2008-08-18|N_America|USA'
+	'EPIISL85213|Avian|A/northern_pintail/Interior_Alaska/8BM3137/2008|H8N4|2008-08-18|N_America|USA'
+	'EPIISL85217|Avian|A/mallard/Interior_Alaska/8BM3584R1/2008|H8N4|2008-09-14|N_America|USA'
+	'EPIISL85243|Avian|A/mallard/Interior_Alaska/8BM2714/2008|H8N4|2008-08-14|N_America|USA'
+	'EPIISL85245|Avian|A/northern_pintail/Interior_Alaska/8MP0209R1/2008|H8N4|2008-08-07|N_America|USA'
+	'EPIISL85246|Avian|A/mallard/Interior_Alaska/8MP0457R1/2008|H8N4|2008-08-10|N_America|USA'
+	'EPIISL85247|Avian|A/mallard/Interior_Alaska/8BM1966R1/2008|H8N4|2008-08-08|N_America|USA'
+	'EPIISL85248|Avian|A/northern_pintail/Interior_Alaska/8BM2011R1/2008|H8N4|2008-08-09|N_America|USA'
+	'EPIISL85254|Avian|A/mallard/Interior_Alaska/8BM3327/2008|H8N4|2008-08-20|N_America|USA'
+	'EPIISL85263|Avian|A/northern_pintail/Interior_Alaska/8MP0213R2/2008|H8N4|2008-08-07|N_America|USA'
+	'EPIISL85265|Avian|A/mallard/Interior_Alaska/9BM1358/2009|H8N4|2009-06-16|N_America|USA'
+	'EPIISL85267|Avian|A/northern_pintail/Interior_Alaska/8BM3739R1/2008|H8N4|2008-09-27|N_America|USA'
+	'EPIISL8867|Avian|A/mallard/Alberta/194/1992|H8N4|1992-12-01|N_America|Canada'
+	'EPIISL90292|Avian|A/Turkey/Ontario/6118/1968|H8N4|1968-01-01|N_America|Canada'
+	'EPIISL94971|Avian|A/blue-winged_teal/Guatemala/CIP049-15/2010|H8N4|2010-01-31|N_America|Guatemala'
+	'EPIISL94973|Avian|A/blue-winged_teal/Guatemala/CIP049-07/2010|H8N4|2010-01-31|N_America|Guatemala'
+	'EPIISL94974|Avian|A/blue-winged_teal/Guatemala/CIP049-14/2010|H8N4|2010-01-31|N_America|Guatemala'
+	'EPIISL94977|Avian|A/blue-winged_teal/Guatemala/CIP049-06/2010|H8N4|2010-01-31|N_America|Guatemala'
+	'EPIISL94979|Avian|A/blue-winged_teal/Guatemala/CIP049-04/2010|H8N4|2010-01-31|N_America|Guatemala'
+	'EPIISL95394|Avian|A/American_black_duck/Illinois/4119/2009|H8N4|2009-11-29|N_America|USA'
+	'EPIISL96126|Avian|A/teal/Chany/444/2009|H8N8|2009-08-29|Europe|Russia'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('EPIISL1798|Avian|A/pintail_duck/Alberta/114/1979|H8N4|1979-08-07|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.024016,(('EPIISL5795|Avian|A/mallard_duck/Alberta/7/1987|H8N4|1987-08-04|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.002362,(('EPIISL8867|Avian|A/mallard/Alberta/194/1992|H8N4|1992-12-01|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.001475,((((('EPIISL6501|Avian|A/mallard/Alaska/708/2005|H8N4|2005-08-19|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.003594,(('EPIISL25479|Avian|A/northern_pintail/Alaska/44204-073/2006|H8N4|2006-10-02|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.004646,((('EPIISL30023|Avian|A/northern_shoveler/California/AKS273/2007|H8N4|2007-12-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.003936,(((('EPIISL71675|Avian|A/northern_pintail/Alaska/44420-106/2008|H8N0|2008-08-06|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL85263|Avian|A/northern_pintail/Interior_Alaska/8MP0213R2/2008|H8N4|2008-08-07|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:5.55E-4,(('EPIISL85246|Avian|A/mallard/Interior_Alaska/8MP0457R1/2008|H8N4|2008-08-10|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001118,((((('EPIISL85243|Avian|A/mallard/Interior_Alaska/8BM2714/2008|H8N4|2008-08-14|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.61E-4,'EPIISL85217|Avian|A/mallard/Interior_Alaska/8BM3584R1/2008|H8N4|2008-09-14|N_America|USA'[&!color=#0033cc,Location="N_America"]:3.0E-6)[&label=77,!color=#0033cc,Location="N_America"]:5.56E-4,('EPIISL85131|Avian|A/northern_pintail/Interior_Alaska/8BM2987/2008|H8N4|2008-08-17|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL85132|Avian|A/northern_pintail/Interior_Alaska/8BM3041/2008|H8N4|2008-08-17|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=56,!color=#0033cc,Location="N_America"]:2.0E-6)[&label=35,!color=#0033cc,Location="N_America"]:2.0E-6,'EPIISL85212|Avian|A/northern_pintail/Interior_Alaska/8BM3091/2008|H8N4|2008-08-18|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001113)[&label=64,!color=#0033cc,Location="N_America"]:5.55E-4,'EPIISL85213|Avian|A/northern_pintail/Interior_Alaska/8BM3137/2008|H8N4|2008-08-18|N_America|USA'[&!color=#0033cc,Location="N_America"]:3.0E-6)[&label=69,!color=#0033cc,Location="N_America"]:5.54E-4,('EPIISL85134|Avian|A/northern_pintail/Interior_Alaska/8BM3088/2008|H8N4|2008-08-18|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001113,'EPIISL85254|Avian|A/mallard/Interior_Alaska/8BM3327/2008|H8N4|2008-08-20|N_America|USA'[&!color=#0033cc,Location="N_America"]:3.0E-6)[&label=90,!color=#0033cc,Location="N_America"]:5.59E-4)[&label=99,!color=#0033cc,Location="N_America"]:0.001117)[&label=99,!color=#0033cc,Location="N_America"]:0.00168,'EPIISL85245|Avian|A/northern_pintail/Interior_Alaska/8MP0209R1/2008|H8N4|2008-08-07|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.64E-4)[&label=71,!color=#0033cc,Location="N_America"]:5.55E-4)[&label=14,!color=#0033cc,Location="N_America"]:1.0E-6,(('EPIISL85127|Avian|A/northern_pintail/Interior_Alaska/8MP0689/2008|H8N4|2008-08-13|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.00223,'EPIISL85133|Avian|A/mallard/Interior_Alaska/8BM3061/2008|H8N4|2008-08-18|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001112)[&label=81,!color=#0033cc,Location="N_America"]:5.59E-4,'EPIISL85211|Avian|A/northern_pintail/Interior_Alaska/8BM2621R1/2008|H8N4|2008-08-14|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.55E-4)[&label=10,!color=#0033cc,Location="N_America"]:2.0E-6)[&label=30,!color=#0033cc,Location="N_America"]:3.0E-6,'EPIISL85248|Avian|A/northern_pintail/Interior_Alaska/8BM2011R1/2008|H8N4|2008-08-09|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.002798)[&label=100,!color=#0033cc,Location="N_America"]:0.006189)[&label=60,!color=#0033cc,Location="N_America"]:2.0E-6,'EPIISL139431|Avian|A/northern_pintail/Alaska/44500-066/2009|H8N4|2009-08-13|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.002264)[&label=78,!color=#0033cc,Location="N_America"]:2.0E-6,'EPIISL71641|Avian|A/northern_pintail/Alaska/44340-503/2007|H8N4|2007-08-10|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001711)[&label=100,!color=#0033cc,Location="N_America"]:0.006163)[&label=94,!color=#0033cc,Location="N_America"]:0.001056,((('EPIISL208093|Avian|A/mallard/Interior_Alaska/12ML00058/2012|H8N4|2012-09-20|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.54E-4,'EPIISL208096|Avian|A/mallard/Interior_Alaska/12ML00076/2012|H8N4|2012-09-20|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=66,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL208099|Avian|A/mallard/Interior_Alaska/12ML00120/2012|H8N4|2012-09-20|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.00111)[&label=100,!color=#0033cc,Location="N_America"]:0.007006,('EPIISL257218|Avian|A/northern_pintail/Alaska/104/2011|H8N8|2011-09-17|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001114,'EPIISL257219|Avian|A/northern_pintail/Alaska/136/2011|H8N4|2011-09-17|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.003293)[&label=100,!color=#0033cc,Location="N_America"]:3.89E-4)[&label=100,!color=#0033cc,Location="N_America"]:0.016474)[&label=99,!color=#0033cc,Location="N_America"]:0.002846)[&label=99,!color=#0033cc,Location="N_America"]:0.001636,('EPIISL20130|Avian|A/pintail/Barrow/38/2005|H8N4|2005-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001673,'EPIISL20132|Avian|A/pintail/Barrow/140/2005|H8N4|2005-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:0.003532)[&label=100,!color=#0033cc,Location="N_America"]:0.004812,('EPIISL82518|Avian|A/American_green-winged_teal/California/44287-395/2007|H8N3|2007-01-27|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.0018,'EPIISL83508|Avian|A/American_green-winged_teal/California/44287-373/2007|H8N4|2007-01-27|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.002132)[&label=100,!color=#0033cc,Location="N_America"]:0.045732)[&label=99,!color=#0033cc,Location="N_America"]:0.001619,'EPIISL67425|Avian|A/turkey/Colorado/235497/2003|H8N4|2003-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.019181)[&label=100,!color=#0033cc,Location="N_America"]:0.015262,(((((('EPIISL25501|Avian|A/northern_shoveler/California/HKWF1325/2007|H8N4|2007-12-09|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.002248,(((((((('EPIISL141330|Avian|A/mallard/Minnesota/Sg-00570/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL63090|Avian|A/mallard/Minnesota/Sg-00684/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.68E-4)[&label=35,!color=#0033cc,Location="N_America"]:1.0E-6,('EPIISL141100|Avian|A/mallard/Minnesota/Sg-00682/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL63084|Avian|A/mallard/Minnesota/Sg-00678/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:5.57E-4)[&label=39,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL141136|Avian|A/mallard/Minnesota/SG-00684/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4)[&label=76,!color=#0033cc,Location="N_America"]:5.57E-4,((('EPIISL141137|Avian|A/mallard/Minnesota/Sg-00686/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:2.0E-6,'EPIISL63096|Avian|A/mallard/Minnesota/Sg-00690/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.68E-4)[&label=100,!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL141103|Avian|A/mallard/Minnesota/Sg-00701/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4)[&label=53,!color=#0033cc,Location="N_America"]:2.0E-6,('EPIISL63091|Avian|A/mallard/Minnesota/Sg-00685/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.6E-4,'EPIISL63094|Avian|A/mallard/Minnesota/Sg-00688/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001122)[&label=66,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=84,!color=#0033cc,Location="N_America"]:2.0E-6)[&label=77,!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL141096|Avian|A/northern_shoveler/Minnesota/Sg-00648/2008|H8N4|2008-08-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001676)[&label=66,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL63081|Avian|A/mallard/Minnesota/Sg-00675/2008|H8N4|2008-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.002276)[&label=97,!color=#0033cc,Location="N_America"]:6.48E-4,(('EPIISL257303|Avian|A/green-winged_teal/Alaska/UGAI15-6067/2015|H8N4|2015-09-06|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.006811,(('EPIISL294061|Avian|A/mallard_duck/Ohio/16OS0672/2016|H8N4|2016-07-22|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.011612,('EPIISL502344|Avian|A/green-winged_teal/Alaska/AK18-WB1-015A/2018|H8N4|2018-09-02|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.015457,'EPIISL14767431|Avian|A/northern_pintail/Alaska/UGAI17-5359/2017|H8N4|2017-09-25|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.005107)[&label=100,!color=#0033cc,Location="N_America"]:0.007692)[&label=73,!color=#0033cc,Location="N_America"]:4.13E-4,'EPIISL378303|Avian|A/Northern_Shoveler/California/D1614933/2016|H8N4|2016-11-22|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.021827)[&label=63,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=73,!color=#0033cc,Location="N_America"]:2.89E-4,'EPIISL261437|Avian|A/northern_shoveler/California/LDC185/2014|H8N4|2014-12-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.008831)[&label=100,!color=#0033cc,Location="N_America"]:0.011672)[&label=100,!color=#0033cc,Location="N_America"]:0.004626,((('EPIISL85167|Avian|A/mallard/Interior_Alaska/8MP0547/2008|H8N4|2008-08-11|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001117,(('EPIISL85168|Avian|A/northern_pintail/Interior_Alaska/8BM2046R1/2008|H8N4|2008-08-09|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL85247|Avian|A/mallard/Interior_Alaska/8BM1966R1/2008|H8N4|2008-08-08|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL85265|Avian|A/mallard/Interior_Alaska/9BM1358/2009|H8N4|2009-06-16|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.00168)[&label=67,!color=#0033cc,Location="N_America"]:2.0E-6)[&label=98,!color=#0033cc,Location="N_America"]:5.4E-4,('EPIISL132816|Avian|A/northern_shoveler/Interior_Alaska/9BM1447R2/2009|H8N4|2009-06-20|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001111,('EPIISL133748|Avian|A/mallard/Interior_Alaska/9BM2351R0/2009|H8N4|2009-07-12|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.56E-4,('EPIISL137488|Avian|A/northern_shoveler/Interior_Alaska/9BM2925R0/2009|H8N4|2009-07-16|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL133750|Avian|A/mallard/Interior_Alaska/9BM2705R0/2009|H8N4|2009-07-15|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001117)[&label=63,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=97,!color=#0033cc,Location="N_America"]:0.001124)[&label=100,!color=#0033cc,Location="N_America"]:0.005692)[&label=99,!color=#0033cc,Location="N_America"]:0.002254,((((('EPIISL137510|Avian|A/northern_shoveler/Interior_Alaska/9BM4787R0/2009|H8N4|2009-07-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4,('EPIISL141653|Avian|A/mallard/Interior_Alaska/9BM7162R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001121,'EPIISL141654|Avian|A/mallard/Interior_Alaska/9BM7216R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001119)[&label=99,!color=#0033cc,Location="N_America"]:5.54E-4)[&label=66,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL141744|Avian|A/northern_pintail/Interior_Alaska/9BM11917R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4)[&label=100,!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL141737|Avian|A/mallard/Interior_Alaska/9BM11053R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001116)[&label=8,!color=#0033cc,Location="N_America"]:1.0E-6,('EPIISL141760|Avian|A/northern_pintail/Interior_Alaska/9BM12068R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.005049,'EPIISL85267|Avian|A/northern_pintail/Interior_Alaska/8BM3739R1/2008|H8N4|2008-09-27|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001142)[&label=80,!color=#0033cc,Location="N_America"]:6.24E-4)[&label=55,!color=#0033cc,Location="N_America"]:1.0E-6,(('EPIISL141659|Avian|A/northern_pintail/Interior_Alaska/9BM7240R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4,('EPIISL141739|Avian|A/northern_pintail/Interior_Alaska/9BM11556R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL141754|Avian|A/northern_pintail/Interior_Alaska/9BM8237R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.002235)[&label=28,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=18,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL141658|Avian|A/mallard/Interior_Alaska/9BM11023R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001116)[&label=98,!color=#0033cc,Location="N_America"]:5.57E-4)[&label=100,!color=#0033cc,Location="N_America"]:0.004548)[&label=100,!color=#0033cc,Location="N_America"]:0.003612)[&label=98,!color=#0033cc,Location="N_America"]:3.59E-4)[&label=99,!color=#0033cc,Location="N_America"]:0.00111,(((((('EPIISL137515|Avian|A/American_green-winged_teal/Interior_Alaska/9BM5045R0/2009|H8N4|2009-07-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL141649|Avian|A/northern_pintail/Interior_Alaska/9BM6510R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=16,!color=#0033cc,Location="N_America"]:1.0E-6,('EPIISL141742|Avian|A/northern_pintail/Interior_Alaska/9BM11643R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.56E-4,'EPIISL138020|Avian|A/northern_pintail/Interior_Alaska/9BM8967R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001673)[&label=8,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=5,!color=#0033cc,Location="N_America"]:1.0E-6,('EPIISL141752|Avian|A/northern_pintail/Interior_Alaska/9BM7882R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL141755|Avian|A/mallard/Interior_Alaska/9BM8389R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001122)[&label=63,!color=#0033cc,Location="N_America"]:5.57E-4)[&label=6,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL137994|Avian|A/northern_pintail/Interior_Alaska/9BM8109R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001115)[&label=59,!color=#0033cc,Location="N_America"]:5.56E-4,'EPIISL137988|Avian|A/mallard/Interior_Alaska/9BM10537R0/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001674)[&label=44,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL141651|Avian|A/northern_pintail/Interior_Alaska/9BM7152R2/2009|H8N4|2009-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001114)[&label=100,!color=#0033cc,Location="N_America"]:0.006257)[&label=100,!color=#0033cc,Location="N_America"]:0.004024,(('EPIISL30028|Avian|A/northern_shoveler/California/HKWF1204/2007|H8N4|2007-12-05|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.53E-4,'EPIISL63575|Avian|A/northern_shoveler/California/HKWF1203/2007|H8N4|2007-12-05|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.63E-4)[&label=100,!color=#0033cc,Location="N_America"]:0.007553,((((('EPIISL94971|Avian|A/blue-winged_teal/Guatemala/CIP049-15/2010|H8N4|2010-01-31|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:0.001112,'EPIISL94974|Avian|A/blue-winged_teal/Guatemala/CIP049-14/2010|H8N4|2010-01-31|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:5.56E-4)[&label=99,!color=#0033cc,Location="N_America"]:5.53E-4,('EPIISL94973|Avian|A/blue-winged_teal/Guatemala/CIP049-07/2010|H8N4|2010-01-31|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL94977|Avian|A/blue-winged_teal/Guatemala/CIP049-06/2010|H8N4|2010-01-31|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:5.55E-4)[&label=71,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=98,!color=#0033cc,Location="N_America"]:0.001116,'EPIISL94979|Avian|A/blue-winged_teal/Guatemala/CIP049-04/2010|H8N4|2010-01-31|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:0.003369)[&label=99,!color=#0033cc,Location="N_America"]:0.002799,((((('EPIISL379032|Avian|A/blue-winged_teal/Guatemala/CIP049-H118-81/2014|H8N4|2014-08-01|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:0.001115,'EPIISL379086|Avian|A/blue-winged_teal/Guatemala/CIP049-I_H118-64/2014|H8N4|2014-08-01|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:0.001686)[&label=100,!color=#0033cc,Location="N_America"]:3.45E-4,'EPIISL369371|Avian|A/northern_shoveler/California/LDC762/2016|H8N4|2016-11-19|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.01942)[&label=100,!color=#0033cc,Location="N_America"]:0.007892,'EPIISL379056|Avian|A/blue-winged_teal/Guatemala/CIP049-S_H118-64/2014|H8N4|2014-08-01|N_America|Guatemala'[&!color=#0033cc,Location="N_America"]:0.001984)[&label=100,!color=#0033cc,Location="N_America"]:0.011202,'EPIISL158504|Avian|A/northern_shoveler/Mississippi/11OS5900/2011|H8N1|2011-12-08|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.003512)[&label=100,!color=#0033cc,Location="N_America"]:0.006443,((('EPIISL266500|Avian|A/northern_shoveler/California/HS206/2015|H8N4|2015-12-05|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001691,('EPIISL4056561|Avian|A/Northern_Pintail/Alaska/19TL00068/2019|H8N4|2019-08-11|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.012435,'EPIISL378275|Avian|A/Northern_Shoveler/California/D1715961/2017|H8N4|2017-11-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.010713)[&label=100,!color=#0033cc,Location="N_America"]:0.001942)[&label=100,!color=#0033cc,Location="N_America"]:0.002573,((('EPIISL328341|Avian|A/mallard/Alberta/48/2017|H8N4|2017-08-12|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.00168,'EPIISL381404|Avian|A/mallard/Alberta/532/2017|H8N4|2017-08-13|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.001681)[&label=100,!color=#0033cc,Location="N_America"]:0.001097,'EPIISL393472|Avian|A/Mallard/Ohio/18OS1248/2018|H8N4|2018-04-11|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.003954)[&label=100,!color=#0033cc,Location="N_America"]:0.005133,(('EPIISL502674|Avian|A/mallard/Maine/ME-Y17-135/2017|H8N4|2017-08-25|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.41E-4,(('EPIISL502680|Avian|A/mallard/Maine/ME-Y17-176/2017|H8N4|2017-08-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.0,'EPIISL502683|Avian|A/mallard/Maine/ME-Y17-181/2017|H8N4|2017-08-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.0)[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL502682|Avian|A/mallard/Maine/ME-Y17-180/2017|H8N4|2017-08-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:0.001695)[&label=100,!color=#0033cc,Location="N_America"]:0.00333,(('EPIISL6816049|Avian|A/mallard/Alaska/AH0176847/2021|H8N4|2021-08-02|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.00112,'EPIISL6795362|Avian|A/mallard/Alaska/AH0176804/2021|H8N4|2021-07-30|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:0.007167,('EPIISL16215439|Avian|A/Mallard/Alberta/67/2021|H8N4|2021-08-26|N_America|Canada'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL16215560|Avian|A/Mallard/Alberta/189/2021|H8N4|2021-08-26|N_America|Canada'[&!color=#0033cc,Location="N_America"]:5.59E-4)[&label=100,!color=#0033cc,Location="N_America"]:0.00847)[&label=100,!color=#0033cc,Location="N_America"]:0.010601)[&label=100,!color=#0033cc,Location="N_America"]:0.001206)[&label=99,!color=#0033cc,Location="N_America"]:0.001357)[&label=99,!color=#0033cc,Location="N_America"]:0.002054,('EPIISL294063|Avian|A/mallard_duck/Ohio/16OS0828/2016|H8N4|2016-07-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.56E-4,'EPIISL294005|Avian|A/mallard_duck/Ohio/16OS0841/2016|H8N4|2016-08-02|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.56E-4)[&label=100,!color=#0033cc,Location="N_America"]:0.007935)[&label=100,!color=#0033cc,Location="N_America"]:0.014643)[&label=100,!color=#0033cc,Location="N_America"]:0.001478)[&label=100,!color=#0033cc,Location="N_America"]:0.00387,('EPIISL135117|Avian|A/northern_shoveler/California/3676/2010|H8N2|2010-12-15|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.013582,'EPIISL141811|Avian|A/northern_pintail/Interior_Alaska/10BM12413R0/2010|H8N4|2010-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.017433)[&label=99,!color=#0033cc,Location="N_America"]:0.001619)[&label=100,!color=#0033cc,Location="N_America"]:0.006047)[&label=100,!color=#0033cc,Location="N_America"]:3.73E-4)[&label=100,!color=#0033cc,Location="N_America"]:0.005824,('EPIISL95394|Avian|A/American_black_duck/Illinois/4119/2009|H8N4|2009-11-29|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.007349,(('EPIISL141198|Avian|A/mallard/Minnesota/AI09-1833/2009|H8N4|2009-07-28|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.001678,('EPIISL141199|Avian|A/mallard/Minnesota/AI09-1854/2009|H8N4|2009-07-28|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.6E-4,'EPIISL141200|Avian|A/mallard/Minnesota/AI09-1867/2009|H8N4|2009-07-28|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=65,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=97,!color=#0033cc,Location="N_America"]:0.001256,(('EPIISL397538|Avian|A/ruddy_turnstone/Delaware/AI10-1037/2010|H8N4|2010-05-21|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.58E-4,'EPIISL397539|Avian|A/ruddy_turnstone/Delaware/AI10-1042/2010|H8N4|2010-05-25|N_America|USA'[&!color=#0033cc,Location="N_America"]:5.57E-4)[&label=44,!color=#0033cc,Location="N_America"]:2.0E-6,('EPIISL397542|Avian|A/ruddy_turnstone/Delaware/AI10-1165/2010|H8N4|2010-05-26|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL397543|Avian|A/ruddy_turnstone/Delaware/AI10-1166/2010|H8N4|2010-05-26|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:5.58E-4)[&label=100,!color=#0033cc,Location="N_America"]:0.004975)[&label=99,!color=#0033cc,Location="N_America"]:0.003705)[&label=100,!color=#0033cc,Location="N_America"]:0.004494)[&label=99,!color=#0033cc,Location="N_America"]:0.001018,('EPIISL131744|Avian|A/American_black_duck/Nova_Scotia/02043/2007|H8N4|2007-08-08|N_America|Canada'[&!color=#0033cc,Location="N_America"]:5.65E-4,('EPIISL180950|Avian|A/American_black_duck/Maryland/08OS1725/2008|H8N4|2008-11-25|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.006271,'EPIISL371804|Avian|A/ruddy_turnstone/Delaware_Bay/311/2009|H8N4|2009-05-20|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.003966)[&label=100,!color=#0033cc,Location="N_America"]:0.001678)[&label=100,!color=#0033cc,Location="N_America"]:0.003443)[&label=100,!color=#0033cc,Location="N_America"]:0.005903,('EPIISL19980|Avian|A/mallard_duck/Minnesota/Sg-00062/2007|H8N4|2007-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL75717|Avian|A/mallard/Minnesota/Sg-00062/2007|H8N4|2007-08-03|N_America|USA'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=100,!color=#0033cc,Location="N_America"]:0.014139)[&label=100,!color=#0033cc,Location="N_America"]:0.019258)[&label=100,!color=#0033cc,Location="N_America"]:0.019206)[&label=100,!color=#0033cc,Location="N_America"]:0.004519,'EPIISL68843|Avian|A/duck/Alaska/702/1991|H8N2|1991-08-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.004384)[&label=100,!color=#0033cc,Location="N_America"]:0.007897)[&label=100,!color=#0033cc,Location="N_America"]:0.015536,'EPIISL68943|Avian|A/duck/LA/B174/1986|H8N4|1986-01-01|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.031324)[&label=97,!color=#0033cc,Location="N_America"]:0.003019,(('EPIISL3242|Avian|A/mallard/Alberta/283/1977|H8N4|1977-08-06|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.025153,((('EPIISL69994|Avian|A/turkey/Ontario/6118/1967|H8N4|1967-01-01|N_America|Canada'[&!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL70124|Avian|A/turkey/Ontario/6118/1968|H8N4|1968-01-01|N_America|Canada'[&!color=#0033cc,Location="N_America"]:1.0E-6)[&label=57,!color=#0033cc,Location="N_America"]:1.0E-6,('EPIISL90292|Avian|A/Turkey/Ontario/6118/1968|H8N4|1968-01-01|N_America|Canada'[&!color=#0033cc,Location="N_America"]:5.57E-4,'EPIISL70147|Avian|A/turkey/Ontario/6118/68|H8N4|1968-01-02|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.001112)[&label=36,!color=#0033cc,Location="N_America"]:1.0E-6)[&label=50,!color=#0033cc,Location="N_America"]:1.0E-6,'EPIISL70148|Avian|A/Turkey/Ontario/6118/68|H8N4|1968-01-02|N_America|Canada'[&!color=#0033cc,Location="N_America"]:0.002232)[&label=100,!color=#0033cc,Location="N_America"]:0.014764)[&label=89,!color=#0033cc,Location="N_America"]:0.002754,(('EPIISL23026|Avian|A/duck/Hokkaido/95/1981|H8N4|1981-01-01|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.038427,(((((('EPIISL30795|Avian|A/common_teal/Netherlands/1/2005|H8N4|2005-01-01|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.001663,(('EPIISL189331|Avian|A/mallard/Sweden/7996/2005|H8N4|2005-09-08|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:5.49E-4,('EPIISL189332|Avian|A/mallard/Sweden/8005/2005|H8N4|2005-09-11|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:7.33E-4,'EPIISL189329|Avian|A/mallard/Sweden/5389/2005|H8N4|2005-09-20|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.002765)[&label=88,!color=#006600,Location="Eurasia"]:3.68E-4)[&label=71,!color=#006600,Location="Eurasia"]:1.0E-6,((('EPIISL84572|Avian|A/northern_shoveler/Netherlands/1/2006|H8N4|2006-01-01|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:5.49E-4,'EPIISL267263|Avian|A/mallard_duck/Netherlands/13/2006|H8N4|2006-07-24|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.001098)[&label=48,!color=#006600,Location="Eurasia"]:1.0E-6,'EPIISL267765|Avian|A/mallard_duck/Netherlands/11/2006|H8N4|2006-07-24|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:1.0E-6)[&label=61,!color=#006600,Location="Eurasia"]:1.0E-6,'EPIISL243549|Avian|A/mallard_duck/Netherlands/14/2006|H8N4|2006-07-24|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:5.49E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.00443)[&label=94,!color=#006600,Location="Eurasia"]:5.65E-4)[&label=99,!color=#006600,Location="Eurasia"]:0.004353,((('EPIISL189466|Avian|A/mallard/Sweden/51671/2006|H8N4|2006-10-20|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.001117,'EPIISL189334|Avian|A/mallard/Sweden/51156/2006|H8N4|2006-10-12|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:5.38E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.005606,'EPIISL189335|Avian|A/mallard/Sweden/58256/2006|H8N4|2006-11-03|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.003339)[&label=100,!color=#006600,Location="Eurasia"]:5.38E-4,'EPIISL189333|Avian|A/mallard/Sweden/50055/2006|H8N4|2006-06-07|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:5.54E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.013438)[&label=100,!color=#006600,Location="Eurasia"]:0.007463,((('EPIISL73373|Avian|A/mallard/Sweden/24/2002|H8N4|2002-11-07|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:1.0E-6,'EPIISL189465|Avian|A/mallard/Sweden/541/2002|H8N4|2002-11-07|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:5.48E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.011705,'EPIISL106124|Avian|A/duck/Tsukuba/255/2005_H8N5_|H8N5|2005-01-01|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.015217)[&label=63,!color=#006600,Location="Eurasia"]:1.37E-4,((('EPIISL73390|Avian|A/mallard/Sweden/8/2003|H8N4|2003-05-27|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:5.48E-4,'EPIISL189315|Avian|A/mallard/Sweden/2834/2003|H8N4|2003-05-27|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:1.0E-6)[&label=92,!color=#006600,Location="Eurasia"]:5.55E-4,'EPIISL189326|Avian|A/mallard/Sweden/2990/2003|H8N4|2003-06-12|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.001095)[&label=100,!color=#006600,Location="Eurasia"]:0.006223,(('EPIISL189330|Avian|A/mallard/Sweden/7242/2004|H8N4|2004-11-25|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.004426,('EPIISL189327|Avian|A/mallard/Sweden/3240/2003|H8N4|2003-09-02|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:5.48E-4,'EPIISL189324|Avian|A/mallard/Sweden/3244/2003|H8N4|2003-09-02|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.001096)[&label=91,!color=#006600,Location="Eurasia"]:3.0E-6)[&label=97,!color=#006600,Location="Eurasia"]:4.62E-4,('EPIISL189337|Avian|A/mallard/Sweden/59517/2007|H8N4|2007-09-01|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:1.0E-6,'EPIISL189336|Avian|A/mallard/Sweden/59475/2007|H8N4|2007-08-29|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:1.0E-6)[&label=100,!color=#006600,Location="Eurasia"]:0.018391)[&label=100,!color=#006600,Location="Eurasia"]:0.002246)[&label=100,!color=#006600,Location="Eurasia"]:0.006251)[&label=70,!color=#006600,Location="Eurasia"]:5.65E-4)[&label=65,!color=#006600,Location="Eurasia"]:5.62E-4,(((('EPIISL32601|Avian|A/Anas_crecca/Spain/1459/2008|H8N4|2008-01-26|Europe|Spain'[&!color=#006600,Location="Eurasia"]:0.003396,'EPIISL189322|Avian|A/mallard/Sweden/60041/2007|H8N2|2007-10-13|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.00224)[&label=100,!color=#006600,Location="Eurasia"]:0.003945,'EPIISL120214|Avian|A/garganey/Ukraine/05835-NAMRU3/2006|H8N4|2006-08-13|Europe|Ukraine'[&!color=#006600,Location="Eurasia"]:0.002801)[&label=100,!color=#006600,Location="Eurasia"]:0.001637,'EPIISL804055|Avian|A/mallard/Netherlands/06026212-002/2006|H8N4|2006-09-15|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.005643)[&label=99,!color=#006600,Location="Eurasia"]:0.003966,(((('EPIISL33854|Avian|A/mallard/Netherlands/1/2006|H8N4|2006-01-01|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.004068,('EPIISL189339|Avian|A/mallard/Sweden/99377/2009|H8N4|2009-09-03|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.00459,((('EPIISL257181|Avian|A/chicken/Netherlands/11004004/2011|H8N4|2011-03-10|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:1.0E-6,'EPIISL309804|Avian|A/Chicken/Netherlands/11004004/2011|H8N4|2011-03-09|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:1.0E-6)[&label=100,!color=#006600,Location="Eurasia"]:0.002791,'EPIISL291186|Avian|A/Common_Teal/Netherlands/12002960/2012|H8N4|2012-02-12|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.005022)[&label=95,!color=#006600,Location="Eurasia"]:0.002771,('EPIISL309800|Avian|A/Chicken/Netherlands/10009401/2010|H8N4|2010-06-04|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.006437,(('EPIISL503489|Avian|A/duck/Bangladesh/38557/2019|H8N4|2019-02-08|Asia|Bangladesh'[&!color=#006600,Location="Eurasia"]:0.00222,'EPIISL503500|Avian|A/mallard/Bangladesh/37909/2019|H8N4|2019-01-15|Asia|Bangladesh'[&!color=#006600,Location="Eurasia"]:0.001105)[&label=100,!color=#006600,Location="Eurasia"]:0.005172,'EPIISL4071639|Avian|A/duck/Bangladesh/42981/2020|H8N4|2020-01-27|Asia|Bangladesh'[&!color=#006600,Location="Eurasia"]:0.010834)[&label=100,!color=#006600,Location="Eurasia"]:0.024545)[&label=95,!color=#006600,Location="Eurasia"]:0.002594)[&label=85,!color=#006600,Location="Eurasia"]:4.79E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.007451)[&label=82,!color=#006600,Location="Eurasia"]:9.39E-4,(('EPIISL189340|Avian|A/mallard/Sweden/101165/2009|H8N4|2009-11-05|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:4.91E-4,('EPIISL309806|Avian|A/Chicken/Netherlands/11008325/2011|H8N4|2011-05-10|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.002825,('EPIISL309837|Avian|A/Turkey/Netherlands/13001007/2013|H8N4|2013-01-18|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.010615,'EPIISL328992|Avian|A/mallard_duck/Netherlands/7/2015|H8N4|2015-01-03|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.015116)[&label=100,!color=#006600,Location="Eurasia"]:0.002722)[&label=100,!color=#006600,Location="Eurasia"]:0.003982)[&label=100,!color=#006600,Location="Eurasia"]:0.00806,'EPIISL144312|Avian|A/mallard/Sweden/100546/2009|H8N4|2009-10-22|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.00402)[&label=100,!color=#006600,Location="Eurasia"]:0.005069)[&label=69,!color=#006600,Location="Eurasia"]:3.0E-6,(((('EPIISL239394|Avian|A/duck/Aichi/231003/2016|H8N4|2016-10-18|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.002661,(('EPIISL14835566|Avian|A/Mallard_Anas_platyrhynchos_/South_Korea/KNU2021-23/2021|H8N4|2021-02-17|Asia|Korea'[&!color=#006600,Location="Eurasia"]:1.0E-6,'EPIISL14835567|Avian|A/Common_Teal_Anas_crecca_/South_Korea/KNU2021-22/2021|H8N4|2021-02-17|Asia|Korea'[&!color=#006600,Location="Eurasia"]:5.51E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.005582,'EPIISL14835575|Avian|A/Mallard_Anas_platyrhynchos_/South_Korea/KNU2021-52/2021|H8N4|2021-09-06|Asia|Korea'[&!color=#006600,Location="Eurasia"]:0.008602)[&label=100,!color=#006600,Location="Eurasia"]:0.004665)[&label=98,!color=#006600,Location="Eurasia"]:5.78E-4,'EPIISL368628|Avian|A/duck/Hokkaido/X9/2016|H8N4|2016-12-20|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.001761)[&label=100,!color=#006600,Location="Eurasia"]:0.0159,('EPIISL290235|Avian|A/duck/Mongolia/258/2011|H8N4|2011-09-03|Asia|Mongolia'[&!color=#006600,Location="Eurasia"]:5.49E-4,'EPIISL298540|Avian|A/duck/Mongolia/565/2011|H8N4|2011-09-03|Asia|Mongolia'[&!color=#006600,Location="Eurasia"]:1.0E-6)[&label=100,!color=#006600,Location="Eurasia"]:0.004883)[&label=98,!color=#006600,Location="Eurasia"]:6.93E-4,((('EPIISL240681|Avian|A/mallard/Chany/126K-2/2014|H8N4|2014-09-11|Europe|Russia'[&!color=#006600,Location="Eurasia"]:0.00226,'EPIISL814560|Avian|A/mallard/Netherlands/18003625-015/2018|H8N4|2018-03-07|Europe|Netherlands'[&!color=#006600,Location="Eurasia"]:0.009094)[&label=99,!color=#006600,Location="Eurasia"]:0.001897,('EPIISL337411|Avian|A/teal/Dagestan/57d/2018|H8N4|2018-09-15|Europe|Russia'[&!color=#006600,Location="Eurasia"]:0.006428,('EPIISL503495|Avian|A/duck/Bangladesh/37473/2019|H8N4|2019-01-16|Asia|Bangladesh'[&!color=#006600,Location="Eurasia"]:5.54E-4,('EPIISL503510|Avian|A/duck/Bangladesh/37509/2019|H8N4|2019-01-17|Asia|Bangladesh'[&!color=#006600,Location="Eurasia"]:1.0E-6,'EPIISL503502|Avian|A/duck/Bangladesh/37525/2019|H8N4|2019-01-17|Asia|Bangladesh'[&!color=#006600,Location="Eurasia"]:5.54E-4)[&label=97,!color=#006600,Location="Eurasia"]:1.0E-6)[&label=100,!color=#006600,Location="Eurasia"]:0.007257)[&label=100,!color=#006600,Location="Eurasia"]:0.014503)[&label=76,!color=#006600,Location="Eurasia"]:1.8E-4,'EPIISL14390387|Avian|A/Anas_platyrhynchos/Belgium/2213_0006/2021|H8N4|2021-08-20|Europe|Belgium'[&!color=#006600,Location="Eurasia"]:0.027095)[&label=100,!color=#006600,Location="Eurasia"]:0.020337)[&label=100,!color=#006600,Location="Eurasia"]:0.013274)[&label=87,!color=#006600,Location="Eurasia"]:5.7E-4,((('EPIISL66198|Avian|A/duck/Thailand/SP-355/2007|H8N4|2007-01-01|Asia|Thailand'[&!color=#006600,Location="Eurasia"]:0.006198,((('EPIISL262476|Avian|A/duck/Chiba/17/2008|H8N4|2008-01-01|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.003325,'EPIISL262486|Avian|A/duck/Niigata/813/07|H8N4|2007-01-01|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.001656)[&label=89,!color=#006600,Location="Eurasia"]:1.0E-6,('EPIISL262480|Avian|A/duck/Tsukuba/20/07|H8N4|2007-01-01|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.002208,('EPIISL262484|Avian|A/duck/Tsukuba/382/2010|H8N4|2010-01-01|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.008552,(('EPIISL239392|Avian|A/duck/Aichi/231001/2016|H8N4|2016-10-18|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.002799,'EPIISL328937|Avian|A/northern_pintail/Alaska/UGAI16-3997/2016|H8N4|2016-09-06|N_America|USA'[&!color=#0033cc,Location="N_America"]:0.003376)[&label=100,!color=#006600,Location="Eurasia"]:0.003373,('EPIISL293508|Avian|A/duck/Hokkaido/95/2014|H8N4|2014-09-23|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.001081,'EPIISL301614|Avian|A/duck/Hokkaido/207/2014|H8N2|2014-10-28|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.002229)[&label=100,!color=#006600,Location="Eurasia"]:0.003932)[&label=100,!color=#006600,Location="Eurasia"]:0.006907)[&label=95,!color=#006600,Location="Eurasia"]:0.002727)[&label=94,!color=#006600,Location="Eurasia"]:2.0E-6)[&label=97,!color=#006600,Location="Eurasia"]:5.57E-4,'EPIISL293519|Avian|A/duck/Hokkaido/W285/2007|H8N4|2007-10-25|Asia|Japan'[&!color=#006600,Location="Eurasia"]:0.001655)[&label=97,!color=#006600,Location="Eurasia"]:0.001665)[&label=100,!color=#006600,Location="Eurasia"]:0.001596,'EPIISL161002|Avian|A/ruddy_shelduck/Mongolia/593/2010|H8N4|2010-06-22|Asia|Mongolia'[&!color=#006600,Location="Eurasia"]:0.015627)[&label=100,!color=#006600,Location="Eurasia"]:0.003646,'EPIISL96126|Avian|A/teal/Chany/444/2009|H8N8|2009-08-29|Europe|Russia'[&!color=#006600,Location="Eurasia"]:0.020387)[&label=91,!color=#006600,Location="Eurasia"]:9.08E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.013175)[&label=86,!color=#006600,Location="Eurasia"]:0.00219)[&label=49,!color=#006600,Location="Eurasia"]:3.58E-4,'EPIISL189328|Avian|A/mallard/Sweden/4486/2004|H8N4|2004-07-23|Europe|Sweden'[&!color=#006600,Location="Eurasia"]:0.011524)[&label=84,!color=#006600,Location="Eurasia"]:0.013077,('EPIISL14768160|Avian|A/grey_teal/Tasmania/14-0911-1/2014|H8N4|2014-04-01|Oceania|Australia'[&!color=#006600,Location="Eurasia"]:0.011657,('EPIISL14768177|Avian|A/wild_waterfowl/Queensland/P16-01466-5/2016|H8N4|2016-04-01|Oceania|Australia'[&!color=#006600,Location="Eurasia"]:0.006169,'EPIISL14769889|Avian|A/wild_waterfowl/South_Australia/15-5425150-15/2015|H8N4|2015-06-04|Oceania|Australia'[&!color=#006600,Location="Eurasia"]:5.93E-4)[&label=100,!color=#006600,Location="Eurasia"]:0.018186)[&label=100,!color=#006600,Location="Eurasia"]:0.07144)[&label=100,!color=#006600,Location="Eurasia"]:0.035827)[&label=100]:0.10036,'Agustina|Avian|A/yellow-billed_teal/Argentina/CIP112-3749|H8N4|2019-07-24|S_America|Argentina'[&!color=#cc0000,Location="Argentina"]:0.129699)[&label=100,!color=#0033cc,Location="N_America"]:0.032804)[&label=100,!color=#0033cc,Location="N_America"]:0.021179);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.5;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="Location";
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=10.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=5049;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
